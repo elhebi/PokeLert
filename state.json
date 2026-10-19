@@ -18,7 +18,7 @@
    "ratio": null,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "35d8a7aac6cc1836",
-   "last_seen": "2026-10-19T13:58:23+00:00",
+   "last_seen": "2026-10-19T20:08:43+00:00",
    "summary": "",
    "alerted": false
   },
@@ -39,7 +39,7 @@
    "ratio": null,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "d458116b6a4bacce",
-   "last_seen": "2026-10-19T13:58:23+00:00",
+   "last_seen": "2026-10-19T20:08:43+00:00",
    "summary": "",
    "alerted": false
   },
@@ -60,7 +60,7 @@
    "ratio": null,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "1081ef8a043649a3",
-   "last_seen": "2026-10-19T13:58:23+00:00",
+   "last_seen": "2026-10-19T20:08:43+00:00",
    "summary": "",
    "alerted": true
   },
@@ -81,7 +81,7 @@
    "ratio": 2.3,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "8967dd5d4e2dbccc",
-   "last_seen": "2026-10-19T13:58:23+00:00",
+   "last_seen": "2026-10-19T20:08:43+00:00",
    "summary": "",
    "alerted": false
   },
@@ -102,7 +102,7 @@
    "ratio": null,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "cf20c0a77776735b",
-   "last_seen": "2026-10-19T13:58:23+00:00",
+   "last_seen": "2026-10-19T20:08:43+00:00",
    "summary": "",
    "alerted": false
   },
@@ -123,7 +123,7 @@
    "ratio": null,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "cedb4f08eb9c35b7",
-   "last_seen": "2026-10-19T13:58:23+00:00",
+   "last_seen": "2026-10-19T20:08:43+00:00",
    "summary": "",
    "alerted": false
   },
@@ -144,7 +144,7 @@
    "ratio": 1.97,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "1dadf5b593ab8afb",
-   "last_seen": "2026-10-19T13:58:23+00:00",
+   "last_seen": "2026-10-19T20:08:43+00:00",
    "summary": "",
    "alerted": false
   },
@@ -165,7 +165,7 @@
    "ratio": 1.19,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "ba4a05290e930f29",
-   "last_seen": "2026-10-19T13:58:23+00:00",
+   "last_seen": "2026-10-19T20:08:43+00:00",
    "summary": "",
    "alerted": true
   },
@@ -186,7 +186,7 @@
    "ratio": 1.95,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "633553aa7ef7732c",
-   "last_seen": "2026-10-19T13:58:23+00:00",
+   "last_seen": "2026-10-19T20:08:43+00:00",
    "summary": "",
    "alerted": false
   },
@@ -207,7 +207,7 @@
    "ratio": 1.61,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "e8b3cf41031cc348",
-   "last_seen": "2026-10-19T13:58:23+00:00",
+   "last_seen": "2026-10-19T20:08:43+00:00",
    "summary": "",
    "alerted": false
   },
@@ -228,7 +228,7 @@
    "ratio": 1.72,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "6e66394fe6aec7a4",
-   "last_seen": "2026-10-19T13:58:23+00:00",
+   "last_seen": "2026-10-19T20:08:43+00:00",
    "summary": "",
    "alerted": false
   },
@@ -249,7 +249,7 @@
    "ratio": null,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "71def5a16099a984",
-   "last_seen": "2026-10-19T13:58:23+00:00",
+   "last_seen": "2026-10-19T20:08:43+00:00",
    "summary": "",
    "alerted": false
   },
@@ -270,7 +270,7 @@
    "ratio": 1.72,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "a3e2c3c36824de97",
-   "last_seen": "2026-10-19T13:58:23+00:00",
+   "last_seen": "2026-10-19T20:08:43+00:00",
    "summary": "",
    "alerted": false
   },
@@ -291,12 +291,12 @@
    "ratio": 1.61,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "ca59d04a5873e383",
-   "last_seen": "2026-10-19T13:58:23+00:00",
+   "last_seen": "2026-10-19T20:08:43+00:00",
    "summary": "",
    "alerted": false
   },
   "ae382bfb9dcbfe88": {
-   "title": "PRE-ORDER Pokémon ME05.5 30th Celebration Sticker Collection EN",
+   "title": "Pokémon ME05.5 30th Celebration Sticker Collection EN",
    "url": "https://www.toytans.ch/en/pokemon-blister-packs/2835-pokemon-me055-30th-celebration-sticker-collection-en-196214144965.html",
    "source": "Toytans (Vorbestellungen)",
    "kind": "shop",
@@ -312,7 +312,7 @@
    "ratio": 1.61,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "ae382bfb9dcbfe88",
-   "last_seen": "2026-10-19T13:58:23+00:00",
+   "last_seen": "2026-10-19T20:08:43+00:00",
    "summary": "",
    "alerted": false
   },
@@ -333,7 +333,7 @@
    "ratio": null,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "5992b3ef14f19511",
-   "last_seen": "2026-10-19T13:58:23+00:00",
+   "last_seen": "2026-10-19T20:08:43+00:00",
    "summary": "",
    "alerted": false
   },
@@ -354,7 +354,7 @@
    "ratio": null,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "748b543aafb62c96",
-   "last_seen": "2026-10-19T13:58:23+00:00",
+   "last_seen": "2026-10-19T20:08:43+00:00",
    "summary": "",
    "alerted": false
   },
@@ -375,7 +375,7 @@
    "ratio": null,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "8b149dbd383b63ff",
-   "last_seen": "2026-10-19T13:58:23+00:00",
+   "last_seen": "2026-10-19T20:08:43+00:00",
    "summary": "",
    "alerted": false
   },
@@ -396,7 +396,7 @@
    "ratio": null,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "0ba77fb7b3d92f2f",
-   "last_seen": "2026-10-19T13:58:23+00:00",
+   "last_seen": "2026-10-19T20:08:43+00:00",
    "summary": "",
    "alerted": false
   },
@@ -417,7 +417,7 @@
    "ratio": null,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "cb2c151b5690b04e",
-   "last_seen": "2026-10-19T13:58:23+00:00",
+   "last_seen": "2026-10-19T20:08:43+00:00",
    "summary": "",
    "alerted": false
   },
@@ -438,7 +438,7 @@
    "ratio": null,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "2bfa6162e0d9e36d",
-   "last_seen": "2026-10-19T13:58:23+00:00",
+   "last_seen": "2026-10-19T20:08:43+00:00",
    "summary": "",
    "alerted": false
   },
@@ -459,7 +459,7 @@
    "ratio": null,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "720b401f59c00da3",
-   "last_seen": "2026-10-19T13:58:23+00:00",
+   "last_seen": "2026-10-19T20:08:43+00:00",
    "summary": "",
    "alerted": false
   },
@@ -480,7 +480,7 @@
    "ratio": 1.56,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "fc33a4df695fa948",
-   "last_seen": "2026-10-19T13:58:23+00:00",
+   "last_seen": "2026-10-19T20:08:43+00:00",
    "summary": "",
    "alerted": false
   },
@@ -501,7 +501,7 @@
    "ratio": 1.07,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "a3002ab585186772",
-   "last_seen": "2026-10-19T13:58:23+00:00",
+   "last_seen": "2026-10-19T20:08:43+00:00",
    "summary": "",
    "alerted": false
   },
@@ -522,7 +522,7 @@
    "ratio": 2.3,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "9bf78d29c233a396",
-   "last_seen": "2026-10-19T13:58:23+00:00",
+   "last_seen": "2026-10-19T20:08:43+00:00",
    "summary": "",
    "alerted": false
   },
@@ -543,7 +543,7 @@
    "ratio": 1.76,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "a19e1c323ed19b62",
-   "last_seen": "2026-10-19T13:58:23+00:00",
+   "last_seen": "2026-10-19T20:08:43+00:00",
    "summary": "",
    "alerted": false
   },
@@ -564,7 +564,7 @@
    "ratio": 1.91,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "aa7ccc391f62ead1",
-   "last_seen": "2026-10-19T13:58:23+00:00",
+   "last_seen": "2026-10-19T20:08:43+00:00",
    "summary": "",
    "alerted": false
   },
@@ -585,7 +585,7 @@
    "ratio": null,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "b26dcc69e0612571",
-   "last_seen": "2026-10-19T13:58:23+00:00",
+   "last_seen": "2026-10-19T20:08:43+00:00",
    "summary": "",
    "alerted": false
   },
@@ -606,7 +606,7 @@
    "ratio": 1.45,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "de320f70cfda8836",
-   "last_seen": "2026-10-19T13:58:23+00:00",
+   "last_seen": "2026-10-19T20:08:43+00:00",
    "summary": "",
    "alerted": false
   },
@@ -627,7 +627,7 @@
    "ratio": 1.79,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "6a847777ea06b901",
-   "last_seen": "2026-10-19T13:58:23+00:00",
+   "last_seen": "2026-10-19T20:08:43+00:00",
    "summary": "",
    "alerted": false
   },
@@ -648,7 +648,7 @@
    "ratio": null,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "9a55616c4da0d1a2",
-   "last_seen": "2026-10-19T13:58:23+00:00",
+   "last_seen": "2026-10-19T20:08:43+00:00",
    "summary": "",
    "alerted": false
   },
@@ -669,7 +669,7 @@
    "ratio": null,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "a55c57db58cb3c1c",
-   "last_seen": "2026-10-19T13:58:23+00:00",
+   "last_seen": "2026-10-19T20:08:43+00:00",
    "summary": "",
    "alerted": false
   },
@@ -690,7 +690,7 @@
    "ratio": 1.59,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "2a8b9e487962d8ef",
-   "last_seen": "2026-10-19T13:58:23+00:00",
+   "last_seen": "2026-10-19T20:08:43+00:00",
    "summary": "",
    "alerted": false
   },
@@ -711,7 +711,7 @@
    "ratio": null,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "a530b390c599014e",
-   "last_seen": "2026-10-19T13:58:23+00:00",
+   "last_seen": "2026-10-19T20:08:43+00:00",
    "summary": "",
    "alerted": false
   },
@@ -732,7 +732,7 @@
    "ratio": 1.34,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "bb1995a93e84451e",
-   "last_seen": "2026-10-19T13:58:23+00:00",
+   "last_seen": "2026-10-19T20:08:43+00:00",
    "summary": "",
    "alerted": false
   },
@@ -753,7 +753,7 @@
    "ratio": 1.48,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "4109897f9127c66d",
-   "last_seen": "2026-10-19T13:58:23+00:00",
+   "last_seen": "2026-10-19T20:08:43+00:00",
    "summary": "",
    "alerted": false
   },
@@ -774,7 +774,7 @@
    "ratio": 1.76,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "9179656027f590aa",
-   "last_seen": "2026-10-19T13:58:23+00:00",
+   "last_seen": "2026-10-19T20:08:43+00:00",
    "summary": "",
    "alerted": false
   },
@@ -795,7 +795,7 @@
    "ratio": 1.07,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "b5cc3a98a23e039e",
-   "last_seen": "2026-10-19T13:58:23+00:00",
+   "last_seen": "2026-10-19T20:08:43+00:00",
    "summary": "",
    "alerted": false
   },
@@ -816,7 +816,7 @@
    "ratio": 1.37,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "80f812f1871875b7",
-   "last_seen": "2026-10-19T13:58:23+00:00",
+   "last_seen": "2026-10-19T20:08:43+00:00",
    "summary": "",
    "alerted": false
   },
@@ -837,7 +837,7 @@
    "ratio": null,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "898a226fab56c7f6",
-   "last_seen": "2026-10-19T13:58:23+00:00",
+   "last_seen": "2026-10-19T20:08:43+00:00",
    "summary": "",
    "alerted": false
   },
@@ -858,7 +858,7 @@
    "ratio": null,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "77e2b3c90117a76e",
-   "last_seen": "2026-10-19T13:58:23+00:00",
+   "last_seen": "2026-10-19T20:08:43+00:00",
    "summary": "",
    "alerted": false
   },
@@ -879,7 +879,7 @@
    "ratio": null,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "3a3609dfd7dcb309",
-   "last_seen": "2026-10-19T13:58:23+00:00",
+   "last_seen": "2026-10-19T20:08:43+00:00",
    "summary": "",
    "alerted": false
   },
@@ -900,7 +900,7 @@
    "ratio": null,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "18442040486445c3",
-   "last_seen": "2026-10-19T13:58:23+00:00",
+   "last_seen": "2026-10-19T20:08:43+00:00",
    "summary": "",
    "alerted": false
   },
@@ -921,7 +921,7 @@
    "ratio": null,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "ddc432db31567358",
-   "last_seen": "2026-10-19T13:58:23+00:00",
+   "last_seen": "2026-10-19T20:08:43+00:00",
    "summary": "",
    "alerted": false
   },
@@ -942,7 +942,7 @@
    "ratio": 1.0,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "0f6c4167397bbd05",
-   "last_seen": "2026-10-19T13:58:23+00:00",
+   "last_seen": "2026-10-19T20:08:43+00:00",
    "summary": "",
    "alerted": false
   },
@@ -963,7 +963,7 @@
    "ratio": null,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "51db65810114c254",
-   "last_seen": "2026-10-19T13:58:23+00:00",
+   "last_seen": "2026-10-19T20:08:43+00:00",
    "summary": "",
    "alerted": false
   },
@@ -984,7 +984,7 @@
    "ratio": 1.31,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "c5d5b6964ebc0220",
-   "last_seen": "2026-10-19T13:58:23+00:00",
+   "last_seen": "2026-10-19T20:08:43+00:00",
    "summary": "",
    "alerted": true
   },
@@ -1005,7 +1005,7 @@
    "ratio": 1.31,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "eec2b8136a8f7290",
-   "last_seen": "2026-10-19T13:58:23+00:00",
+   "last_seen": "2026-10-19T20:08:43+00:00",
    "summary": "",
    "alerted": false
   },
@@ -1026,7 +1026,7 @@
    "ratio": null,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "db1c92025b13c1d6",
-   "last_seen": "2026-10-19T13:58:23+00:00",
+   "last_seen": "2026-10-19T20:08:43+00:00",
    "summary": "",
    "alerted": false
   },
@@ -1047,7 +1047,7 @@
    "ratio": null,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "ee3af6056ba6893e",
-   "last_seen": "2026-10-19T13:58:23+00:00",
+   "last_seen": "2026-10-19T20:08:43+00:00",
    "summary": "",
    "alerted": false
   },
@@ -1068,7 +1068,7 @@
    "ratio": null,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "e6159f431ba3b39b",
-   "last_seen": "2026-10-19T13:58:23+00:00",
+   "last_seen": "2026-10-19T20:08:43+00:00",
    "summary": "",
    "alerted": false
   },
@@ -1089,7 +1089,7 @@
    "ratio": null,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "2eb297b6e8a4a944",
-   "last_seen": "2026-10-19T13:58:23+00:00",
+   "last_seen": "2026-10-19T20:08:43+00:00",
    "summary": "",
    "alerted": false
   },
@@ -1110,7 +1110,7 @@
    "ratio": null,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "83e5b8cde3c916ae",
-   "last_seen": "2026-10-19T13:58:23+00:00",
+   "last_seen": "2026-10-19T20:08:43+00:00",
    "summary": "",
    "alerted": false
   },
@@ -1131,7 +1131,7 @@
    "ratio": null,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "3d5365716a8cac2a",
-   "last_seen": "2026-10-19T13:58:23+00:00",
+   "last_seen": "2026-10-19T20:08:43+00:00",
    "summary": "",
    "alerted": false
   },
@@ -1152,7 +1152,7 @@
    "ratio": null,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "58b500d136932d98",
-   "last_seen": "2026-10-19T13:58:23+00:00",
+   "last_seen": "2026-10-19T20:08:43+00:00",
    "summary": "",
    "alerted": false
   },
@@ -1173,7 +1173,7 @@
    "ratio": null,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "318238592e70c115",
-   "last_seen": "2026-10-19T13:58:23+00:00",
+   "last_seen": "2026-10-19T20:08:43+00:00",
    "summary": "",
    "alerted": false
   },
@@ -1194,7 +1194,7 @@
    "ratio": 0.89,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "7a8f074def4d3e95",
-   "last_seen": "2026-10-19T13:58:23+00:00",
+   "last_seen": "2026-10-19T20:08:43+00:00",
    "summary": "",
    "alerted": false
   },
@@ -1215,7 +1215,7 @@
    "ratio": 1.27,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "bf86e8997975e1a5",
-   "last_seen": "2026-10-19T13:58:23+00:00",
+   "last_seen": "2026-10-19T20:08:43+00:00",
    "summary": "",
    "alerted": false
   },
@@ -1236,7 +1236,7 @@
    "ratio": 0.89,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "6a5c81ebf056cbd1",
-   "last_seen": "2026-10-19T13:58:23+00:00",
+   "last_seen": "2026-10-19T20:08:43+00:00",
    "summary": "",
    "alerted": false
   },
@@ -1257,7 +1257,7 @@
    "ratio": 1.27,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "8b97daff11c789e6",
-   "last_seen": "2026-10-19T13:58:23+00:00",
+   "last_seen": "2026-10-19T20:08:43+00:00",
    "summary": "",
    "alerted": false
   },
@@ -1278,7 +1278,7 @@
    "ratio": null,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "e145a4e55b12efef",
-   "last_seen": "2026-10-19T13:58:23+00:00",
+   "last_seen": "2026-10-19T20:08:43+00:00",
    "summary": "",
    "alerted": false
   },
@@ -1299,7 +1299,7 @@
    "ratio": null,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "c3e270c4274b6526",
-   "last_seen": "2026-10-19T13:58:23+00:00",
+   "last_seen": "2026-10-19T20:08:43+00:00",
    "summary": "",
    "alerted": false
   },
@@ -1320,7 +1320,7 @@
    "ratio": null,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "5c87338ae265bfaf",
-   "last_seen": "2026-10-19T13:58:23+00:00",
+   "last_seen": "2026-10-19T20:08:43+00:00",
    "summary": "",
    "alerted": false
   },
@@ -1829,6 +1829,281 @@
    "last_seen": "2026-10-19T13:58:23+00:00",
    "summary": "",
    "alerted": false
+  },
+  "de8a7de30d2719e6": {
+   "title": "“Won” these packs from a Claw Machine",
+   "url": "https://www.reddit.com/r/PokemonTCG/comments/1xa7jzj/won_these_packs_from_a_claw_machine/",
+   "source": "Reddit r/PokemonTCG",
+   "kind": "social",
+   "first_seen": "2026-10-19T20:08:43+00:00",
+   "id": "de8a7de30d2719e6",
+   "last_seen": "2026-10-19T20:08:43+00:00",
+   "summary": "",
+   "alerted": false
+  },
+  "bcf15110fc63b1e8": {
+   "title": "Going for an Ampharos Master set",
+   "url": "https://www.reddit.com/r/PokemonTCG/comments/1xa7il4/going_for_an_ampharos_master_set/",
+   "source": "Reddit r/PokemonTCG",
+   "kind": "social",
+   "first_seen": "2026-10-19T20:08:43+00:00",
+   "id": "bcf15110fc63b1e8",
+   "last_seen": "2026-10-19T20:08:43+00:00",
+   "summary": "",
+   "alerted": false
+  },
+  "442a842f1a5b5d43": {
+   "title": "Finally got ahold of a 30th ETB…",
+   "url": "https://www.reddit.com/r/PokemonTCG/comments/1xa72ki/finally_got_ahold_of_a_30th_etb/",
+   "source": "Reddit r/PokemonTCG",
+   "kind": "social",
+   "first_seen": "2026-10-19T20:08:43+00:00",
+   "id": "442a842f1a5b5d43",
+   "last_seen": "2026-10-19T20:08:43+00:00",
+   "summary": "",
+   "alerted": false
+  },
+  "419eb3324f218e84": {
+   "title": "I gambled for 2 chances @ Gengar & got a god pack With Gengars in it 🥳",
+   "url": "https://www.reddit.com/r/PokemonTCG/comments/1xa6v5q/i_gambled_for_2_chances_gengar_got_a_god_pack/",
+   "source": "Reddit r/PokemonTCG",
+   "kind": "social",
+   "first_seen": "2026-10-19T20:08:43+00:00",
+   "id": "419eb3324f218e84",
+   "last_seen": "2026-10-19T20:08:43+00:00",
+   "summary": "",
+   "alerted": false
+  },
+  "832b44b9ea8584e2": {
+   "title": "Anyone else stop collecting because everything sells out instantly?",
+   "url": "https://www.reddit.com/r/PokemonTCG/comments/1xa6uq1/anyone_else_stop_collecting_because_everything/",
+   "source": "Reddit r/PokemonTCG",
+   "kind": "social",
+   "first_seen": "2026-10-19T20:08:43+00:00",
+   "id": "832b44b9ea8584e2",
+   "last_seen": "2026-10-19T20:08:43+00:00",
+   "summary": "",
+   "alerted": false
+  },
+  "9f6a395d30ced3c3": {
+   "title": "Found my old binder",
+   "url": "https://www.reddit.com/r/PokemonTCG/comments/1xa6jzy/found_my_old_binder/",
+   "source": "Reddit r/PokemonTCG",
+   "kind": "social",
+   "first_seen": "2026-10-19T20:08:43+00:00",
+   "id": "9f6a395d30ced3c3",
+   "last_seen": "2026-10-19T20:08:43+00:00",
+   "summary": "",
+   "alerted": false
+  },
+  "0288c3c35f48e620": {
+   "title": "😍😍😍",
+   "url": "https://www.reddit.com/r/PokemonTCG/comments/1xa6cec/_/",
+   "source": "Reddit r/PokemonTCG",
+   "kind": "social",
+   "first_seen": "2026-10-19T20:08:43+00:00",
+   "id": "0288c3c35f48e620",
+   "last_seen": "2026-10-19T20:08:43+00:00",
+   "summary": "",
+   "alerted": false
+  },
+  "eeb866fc3e42b372": {
+   "title": "How many languages do the cards come in?",
+   "url": "https://www.reddit.com/r/PokemonTCG/comments/1xa6bpj/how_many_languages_do_the_cards_come_in/",
+   "source": "Reddit r/PokemonTCG",
+   "kind": "social",
+   "first_seen": "2026-10-19T20:08:43+00:00",
+   "id": "eeb866fc3e42b372",
+   "last_seen": "2026-10-19T20:08:43+00:00",
+   "summary": "",
+   "alerted": false
+  },
+  "ba0b6a46ab63ad0f": {
+   "title": "Are these actually rare or are they a common pull",
+   "url": "https://www.reddit.com/r/PokemonTCG/comments/1xa69qe/are_these_actually_rare_or_are_they_a_common_pull/",
+   "source": "Reddit r/PokemonTCG",
+   "kind": "social",
+   "first_seen": "2026-10-19T20:08:43+00:00",
+   "id": "ba0b6a46ab63ad0f",
+   "last_seen": "2026-10-19T20:08:43+00:00",
+   "summary": "",
+   "alerted": false
+  },
+  "6c62427603c4afb1": {
+   "title": "Anyone still waiting on their 30th bundles to come?",
+   "url": "https://www.reddit.com/r/PokemonTCG/comments/1xa5t6i/anyone_still_waiting_on_their_30th_bundles_to_come/",
+   "source": "Reddit r/PokemonTCG",
+   "kind": "social",
+   "first_seen": "2026-10-19T20:08:43+00:00",
+   "id": "6c62427603c4afb1",
+   "last_seen": "2026-10-19T20:08:43+00:00",
+   "summary": "",
+   "alerted": false
+  },
+  "a54bfa2af90d67d4": {
+   "title": "Been helping two of my friends go through their childhood collection…",
+   "url": "https://www.reddit.com/r/PokemonTCG/comments/1xa5ca4/been_helping_two_of_my_friends_go_through_their/",
+   "source": "Reddit r/PokemonTCG",
+   "kind": "social",
+   "first_seen": "2026-10-19T20:08:43+00:00",
+   "id": "a54bfa2af90d67d4",
+   "last_seen": "2026-10-19T20:08:43+00:00",
+   "summary": "",
+   "alerted": false
+  },
+  "49269e4d383865ca": {
+   "title": "Jungle should be reprint but with one change",
+   "url": "https://www.reddit.com/r/PokemonTCG/comments/1xa4urr/jungle_should_be_reprint_but_with_one_change/",
+   "source": "Reddit r/PokemonTCG",
+   "kind": "social",
+   "first_seen": "2026-10-19T20:08:43+00:00",
+   "id": "49269e4d383865ca",
+   "last_seen": "2026-10-19T20:08:43+00:00",
+   "summary": "",
+   "alerted": false
+  },
+  "415f09df84cd26b4": {
+   "title": "Had these sitting in my drawer for months, sitting on a couple of gold mines lol",
+   "url": "https://www.reddit.com/r/PokemonTCG/comments/1xa4em0/had_these_sitting_in_my_drawer_for_months_sitting/",
+   "source": "Reddit r/PokemonTCG",
+   "kind": "social",
+   "first_seen": "2026-10-19T20:08:43+00:00",
+   "id": "415f09df84cd26b4",
+   "last_seen": "2026-10-19T20:08:43+00:00",
+   "summary": "",
+   "alerted": false
+  },
+  "5bbe129da248915e": {
+   "title": "Mulit-language Pokemon Masterset Advice",
+   "url": "https://www.reddit.com/r/PokemonTCG/comments/1xa4edg/mulitlanguage_pokemon_masterset_advice/",
+   "source": "Reddit r/PokemonTCG",
+   "kind": "social",
+   "first_seen": "2026-10-19T20:08:43+00:00",
+   "id": "5bbe129da248915e",
+   "last_seen": "2026-10-19T20:08:43+00:00",
+   "summary": "",
+   "alerted": false
+  },
+  "67dbab3385497fca": {
+   "title": "My envelopes for Halloween arrived today!",
+   "url": "https://www.reddit.com/r/PokemonTCG/comments/1xa3oyz/my_envelopes_for_halloween_arrived_today/",
+   "source": "Reddit r/PokemonTCG",
+   "kind": "social",
+   "first_seen": "2026-10-19T20:08:43+00:00",
+   "id": "67dbab3385497fca",
+   "last_seen": "2026-10-19T20:08:43+00:00",
+   "summary": "",
+   "alerted": false
+  },
+  "5ca5e43e8e2fe1ee": {
+   "title": "[Help] is this considered normal or holo foil?",
+   "url": "https://www.reddit.com/r/PokemonTCG/comments/1xa3nnu/help_is_this_considered_normal_or_holo_foil/",
+   "source": "Reddit r/PokemonTCG",
+   "kind": "social",
+   "first_seen": "2026-10-19T20:08:43+00:00",
+   "id": "5ca5e43e8e2fe1ee",
+   "last_seen": "2026-10-19T20:08:43+00:00",
+   "summary": "",
+   "alerted": false
+  },
+  "f9d429e88de79805": {
+   "title": "Can anyone here explain the different formats of the TCG to a new fan?",
+   "url": "https://www.reddit.com/r/PokemonTCG/comments/1xa3jm4/can_anyone_here_explain_the_different_formats_of/",
+   "source": "Reddit r/PokemonTCG",
+   "kind": "social",
+   "first_seen": "2026-10-19T20:08:43+00:00",
+   "id": "f9d429e88de79805",
+   "last_seen": "2026-10-19T20:08:43+00:00",
+   "summary": "",
+   "alerted": false
+  },
+  "463ed5e075b9042f": {
+   "title": "Original design, hand painted.",
+   "url": "https://www.reddit.com/r/PokemonTCG/comments/1xa3f27/original_design_hand_painted/",
+   "source": "Reddit r/PokemonTCG",
+   "kind": "social",
+   "first_seen": "2026-10-19T20:08:43+00:00",
+   "id": "463ed5e075b9042f",
+   "last_seen": "2026-10-19T20:08:43+00:00",
+   "summary": "",
+   "alerted": false
+  },
+  "d528988a8c21eb5b": {
+   "title": "The homework reward cabinet has gotten out of control",
+   "url": "https://www.reddit.com/r/PokemonTCG/comments/1xa336q/the_homework_reward_cabinet_has_gotten_out_of/",
+   "source": "Reddit r/PokemonTCG",
+   "kind": "social",
+   "first_seen": "2026-10-19T20:08:43+00:00",
+   "id": "d528988a8c21eb5b",
+   "last_seen": "2026-10-19T20:08:43+00:00",
+   "summary": "",
+   "alerted": false
+  },
+  "81e0072493d99eb7": {
+   "title": "Person on facebook marketplace wanted 50 dollars for these four cards",
+   "url": "https://www.reddit.com/r/PokemonTCG/comments/1xa30ab/person_on_facebook_marketplace_wanted_50_dollars/",
+   "source": "Reddit r/PokemonTCG",
+   "kind": "social",
+   "first_seen": "2026-10-19T20:08:43+00:00",
+   "id": "81e0072493d99eb7",
+   "last_seen": "2026-10-19T20:08:43+00:00",
+   "summary": "",
+   "alerted": false
+  },
+  "f4742792154b960d": {
+   "title": "Why does every single vendor use the same sound effects in every video??",
+   "url": "https://www.reddit.com/r/PokemonTCG/comments/1xa2vgn/why_does_every_single_vendor_use_the_same_sound/",
+   "source": "Reddit r/PokemonTCG",
+   "kind": "social",
+   "first_seen": "2026-10-19T20:08:43+00:00",
+   "id": "f4742792154b960d",
+   "last_seen": "2026-10-19T20:08:43+00:00",
+   "summary": "",
+   "alerted": false
+  },
+  "6a765256d20c703d": {
+   "title": "3 ETB pulls!",
+   "url": "https://www.reddit.com/r/PokemonTCG/comments/1xa2pjp/3_etb_pulls/",
+   "source": "Reddit r/PokemonTCG",
+   "kind": "social",
+   "first_seen": "2026-10-19T20:08:43+00:00",
+   "id": "6a765256d20c703d",
+   "last_seen": "2026-10-19T20:08:43+00:00",
+   "summary": "",
+   "alerted": false
+  },
+  "f46ec7232f1abb2f": {
+   "title": "Rayquaza Trio",
+   "url": "https://www.reddit.com/r/PokemonTCG/comments/1xa2jt8/rayquaza_trio/",
+   "source": "Reddit r/PokemonTCG",
+   "kind": "social",
+   "first_seen": "2026-10-19T20:08:43+00:00",
+   "id": "f46ec7232f1abb2f",
+   "last_seen": "2026-10-19T20:08:43+00:00",
+   "summary": "",
+   "alerted": false
+  },
+  "021f2dc5f4d9e930": {
+   "title": "Hoping for the best",
+   "url": "https://www.reddit.com/r/PokemonTCG/comments/1xa2fjj/hoping_for_the_best/",
+   "source": "Reddit r/PokemonTCG",
+   "kind": "social",
+   "first_seen": "2026-10-19T20:08:43+00:00",
+   "id": "021f2dc5f4d9e930",
+   "last_seen": "2026-10-19T20:08:43+00:00",
+   "summary": "",
+   "alerted": false
+  },
+  "3889e55e7e99904b": {
+   "title": "3D Bellsprout",
+   "url": "https://www.reddit.com/r/PokemonTCG/comments/1xa25bx/3d_bellsprout/",
+   "source": "Reddit r/PokemonTCG",
+   "kind": "social",
+   "first_seen": "2026-10-19T20:08:43+00:00",
+   "id": "3889e55e7e99904b",
+   "last_seen": "2026-10-19T20:08:43+00:00",
+   "summary": "",
+   "alerted": false
   }
  },
  "reminders": [],
@@ -1836,33 +2111,33 @@
   "The Uncommon Shop (Vorbestellungen)": {
    "count": 11,
    "error": "",
-   "time": "2026-10-19T13:58:06+00:00"
+   "time": "2026-10-19T20:08:25+00:00"
   },
   "Toytans (Vorbestellungen)": {
    "count": 12,
    "error": "",
-   "time": "2026-10-19T13:58:09+00:00"
+   "time": "2026-10-19T20:08:28+00:00"
   },
   "Pikaversum": {
    "count": 750,
    "error": "",
-   "time": "2026-10-19T13:58:13+00:00"
+   "time": "2026-10-19T20:08:33+00:00"
   },
   "World of Games (WoG)": {
    "count": 156,
    "error": "",
-   "time": "2026-10-19T13:58:17+00:00"
+   "time": "2026-10-19T20:08:37+00:00"
   },
   "PokeZentrum News": {
    "count": 20,
    "error": "",
-   "time": "2026-10-19T13:58:21+00:00"
+   "time": "2026-10-19T20:08:40+00:00"
   },
   "Reddit r/PokemonTCG": {
    "count": 25,
    "error": "",
-   "time": "2026-10-19T13:58:23+00:00"
+   "time": "2026-10-19T20:08:43+00:00"
   }
  },
- "last_run": "2026-10-19T13:58:23+00:00"
+ "last_run": "2026-10-19T20:08:43+00:00"
 }
