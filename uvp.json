@@ -1,0 +1,176 @@
+{
+  "source": "UVP: tcgcheck.de (DE, Euro), Stand 06.10.2026. CH-Richtpreis: aktueller WoG-Preis (Delta-Herrschaft) – bitte bei neuen Sets prüfen",
+  "eur_chf": 0.931,
+  "thresholds": {
+    "fair": 1.2,
+    "teuer": 1.35
+  },
+  "products": [
+    {
+      "name": "Mini Tin Display / Set (10 Mini Tins)",
+      "match": [
+        "mini tin display",
+        "mini-tin-display",
+        "mini-tin set",
+        "mini tin set"
+      ],
+      "uvp_eur": 139.9,
+      "chf_ref": 129.9
+    },
+    {
+      "name": "Build & Battle Kit",
+      "match": [
+        "build & battle",
+        "build and battle",
+        "build&battle"
+      ],
+      "exclude": [
+        "display",
+        "case"
+      ],
+      "uvp_eur": 29.99
+    },
+    {
+      "name": "Booster Bundle",
+      "match": [
+        "booster bundle",
+        "boosterbundle"
+      ],
+      "exclude": [
+        "display",
+        "case",
+        "+",
+        "3×",
+        "3x"
+      ],
+      "uvp_eur": 29.99
+    },
+    {
+      "name": "Top Trainer Box / Elite Trainer Box",
+      "match": [
+        "elite trainer box",
+        "top trainer box",
+        "top-trainer-box",
+        " etb"
+      ],
+      "exclude": [
+        "case",
+        "pokémon center",
+        "pokemon center"
+      ],
+      "uvp_eur": 54.99,
+      "chf_ref": 64.9
+    },
+    {
+      "name": "Booster Display (36 Booster)",
+      "match": [
+        "booster display",
+        "booster box",
+        " display"
+      ],
+      "exclude": [
+        "mini",
+        "18",
+        "case",
+        "jumbo",
+        "build",
+        "blister",
+        "+",
+        "bundle"
+      ],
+      "uvp_eur": 179.99,
+      "chf_ref": 149.0
+    },
+    {
+      "name": "Mini Tin",
+      "match": [
+        "mini tin",
+        "mini-tin"
+      ],
+      "exclude": [
+        "display",
+        "+"
+      ],
+      "uvp_eur": 13.99
+    },
+    {
+      "name": "3er Blister",
+      "match": [
+        "3-pack",
+        "3er blister",
+        "3 pack"
+      ],
+      "exclude": [
+        "display",
+        "case"
+      ],
+      "uvp_eur": 15.99
+    },
+    {
+      "name": "2er Blister",
+      "match": [
+        "2-pack",
+        "2er blister",
+        "2 pack"
+      ],
+      "exclude": [
+        "display",
+        "case"
+      ],
+      "uvp_eur": 12.99
+    },
+    {
+      "name": "Booster (einzeln)",
+      "match": [
+        "booster pack",
+        "einzelbooster",
+        "booster -"
+      ],
+      "exclude": [
+        "bundle",
+        "display",
+        "box",
+        "case",
+        "+"
+      ],
+      "uvp_eur": 4.99
+    },
+    {
+      "name": "Tech Sticker Kollektion",
+      "match": [
+        "tech sticker",
+        "sticker collection",
+        "sticker kollektion"
+      ],
+      "exclude": [
+        "display",
+        "case",
+        "set"
+      ],
+      "uvp_eur": 19.99
+    },
+    {
+      "name": "Poster Kollektion",
+      "match": [
+        "poster kollektion",
+        "poster collection"
+      ],
+      "uvp_eur": 23.99
+    },
+    {
+      "name": "ex Kollektion / ex Tin",
+      "match": [
+        "ex tin",
+        "ex-tin",
+        "ex kollektion",
+        "ex collection"
+      ],
+      "exclude": [
+        "set",
+        "display",
+        "case"
+      ],
+      "uvp_eur": 24.99
+    }
+  ]
+}

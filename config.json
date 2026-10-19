@@ -1,0 +1,215 @@
+{
+  "alert_threshold": 3,
+  "max_alerts_per_run": 10,
+  "alert_ratings": [
+    "fair",
+    "teuer",
+    ""
+  ],
+  "reminder_days": [
+    7,
+    1,
+    0
+  ],
+  "current_sets": [
+    "delta",
+    "30 jahre",
+    "30th",
+    "30 anniv",
+    "30e anniv",
+    "me06",
+    "me05.5",
+    "me5.5",
+    "mega entwicklung",
+    "mega-entwicklung",
+    "mega evolution"
+  ],
+  "product_keywords": [
+    "booster",
+    "display",
+    "trainer box",
+    "etb",
+    "bundle",
+    "tin",
+    "kollektion",
+    "collection",
+    "blister",
+    "battle",
+    "deck",
+    "box",
+    "pack",
+    "case"
+  ],
+  "shop_exclude": [
+    "psa ",
+    "cgc ",
+    "bgs ",
+    "graded",
+    "slab",
+    "einzelkarte",
+    "single card",
+    "proxy",
+    "sleeve",
+    "hülle",
+    "mystery",
+    "yu-gi-oh",
+    "magic:",
+    "one piece",
+    "lorcana",
+    "hockey",
+    "jpn",
+    "japan",
+    "chinese",
+    "chinesisch",
+    "simplified",
+    "(cn)",
+    "(jp)",
+    "korean",
+    "gem pack",
+    "protecc",
+    "acryl",
+    "toploader",
+    "pro-binder",
+    "portfolio",
+    "card sleeves",
+    "playmat",
+    "spielmatte"
+  ],
+  "release_keywords": {
+    "vorbestell": 4,
+    "pre-order": 4,
+    "preorder": 4,
+    "pre order": 4,
+    "ab sofort bestellbar": 4,
+    "offiziell angekündigt": 4,
+    "angekündigt": 3,
+    "announced": 3,
+    "erscheint": 3,
+    "release date": 3,
+    "neue erweiterung": 3,
+    "neues set": 3,
+    "restock": 3,
+    "wieder verfügbar": 3,
+    "pokemon center": 2,
+    "queue": 2,
+    "release": 2
+  },
+  "ignore": [
+    "rekordpreise",
+    "höchstpreise",
+    "wertvollsten",
+    "beliebtesten",
+    "psa",
+    "preisentwicklung",
+    "gewinner-decks",
+    "regionalmeisterschaft",
+    "megathread",
+    "mega thread"
+  ],
+  "sources": [
+    {
+      "name": "The Uncommon Shop (Vorbestellungen)",
+      "type": "shop",
+      "urls": [
+        "https://theuncommonshop.ch/en/product-category/pokemon-en/pre-order/"
+      ],
+      "preorder_page": true,
+      "all_pokemon": true,
+      "link_must_contain": [
+        "/product/"
+      ]
+    },
+    {
+      "name": "Toytans (Vorbestellungen)",
+      "type": "shop",
+      "urls": [
+        "https://www.toytans.ch/en/262-pokemon-pre-order"
+      ],
+      "preorder_page": true,
+      "all_pokemon": true,
+      "link_must_contain": [
+        ".html"
+      ]
+    },
+    {
+      "name": "Pikaversum",
+      "type": "shopify",
+      "url": "https://pikaversum.ch",
+      "currency": "CHF",
+      "pages": 3
+    },
+    {
+      "name": "World of Games (WoG)",
+      "type": "wog",
+      "url": "https://www.wog.ch",
+      "platform": "Trading-Cards"
+    },
+    {
+      "name": "PokeZentrum News",
+      "type": "rss",
+      "url": "https://pokezentrum.de/feed/",
+      "all_pokemon": true
+    },
+    {
+      "name": "Reddit r/PokemonTCG",
+      "type": "reddit",
+      "handle": "PokemonTCG",
+      "all_pokemon": true
+    },
+    {
+      "name": "Reddit r/pkmntcgdeals",
+      "type": "reddit",
+      "handle": "pkmntcgdeals",
+      "all_pokemon": true,
+      "pause": 12,
+      "ignore": [
+        "target",
+        "walmart",
+        "costco",
+        "dick",
+        "best buy",
+        "bestbuy",
+        "gamestop",
+        "lottery",
+        "unban",
+        "q/a",
+        "q&a"
+      ],
+      "enabled": false
+    },
+    {
+      "name": "Good Games Bern (Displays)",
+      "type": "shop",
+      "urls": [
+        "https://www.goodgamesbern.ch/pokemon/displays/"
+      ],
+      "all_pokemon": true,
+      "link_must_contain": [
+        "/pokemon/pokemon-"
+      ],
+      "enabled": false
+    },
+    {
+      "name": "Sparkleaf (Preise in EUR)",
+      "type": "shopify",
+      "url": "https://sparkleaf.ch",
+      "currency": "EUR",
+      "pages": 2,
+      "enabled": false
+    },
+    {
+      "name": "BEISPIEL YouTube-Kanal",
+      "type": "youtube",
+      "handle": "CHANNEL_ID_HIER",
+      "all_pokemon": true,
+      "enabled": false
+    },
+    {
+      "name": "BEISPIEL Telegram-Kanal",
+      "type": "telegram",
+      "handle": "kanalname",
+      "all_pokemon": true,
+      "enabled": false
+    }
+  ]
+}
