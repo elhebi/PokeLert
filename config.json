@@ -73,7 +73,20 @@
     "portfolio",
     "card sleeves",
     "playmat",
-    "spielmatte"
+    "spielmatte",
+    "japanese",
+    "tchn",
+    " chn",
+    "-chn",
+    "aog ",
+    "gem mint",
+    "near mint",
+    "deck box",
+    "binder",
+    "alcove",
+    "acrylic",
+    "tin display jpn",
+    "booster pack jp"
   ],
   "release_keywords": {
     "vorbestell": 4,
@@ -117,7 +130,8 @@
       "all_pokemon": true,
       "link_must_contain": [
         "/product/"
-      ]
+      ],
+      "country": "CH"
     },
     {
       "name": "Toytans (Vorbestellungen)",
@@ -129,20 +143,33 @@
       "all_pokemon": true,
       "link_must_contain": [
         ".html"
-      ]
+      ],
+      "country": "CH"
     },
     {
       "name": "Pikaversum",
       "type": "shopify",
       "url": "https://pikaversum.ch",
       "currency": "CHF",
-      "pages": 3
+      "pages": 3,
+      "country": "CH"
     },
     {
       "name": "World of Games (WoG)",
       "type": "wog",
       "url": "https://www.wog.ch",
-      "platform": "Trading-Cards"
+      "platform": "Trading-Cards",
+      "country": "CH"
+    },
+    {
+      "name": "Cardcosmos",
+      "type": "shopify",
+      "url": "https://cardcosmos.ch",
+      "collection": "the-pokemon-company-international",
+      "currency": "CHF",
+      "pages": 6,
+      "country": "CH",
+      "pause": 3
     },
     {
       "name": "PokeZentrum News",
@@ -178,24 +205,28 @@
       "enabled": false
     },
     {
-      "name": "Good Games Bern (Displays)",
+      "name": "Good Games Bern",
       "type": "shop",
       "urls": [
-        "https://www.goodgamesbern.ch/pokemon/displays/"
+        "https://www.goodgamesbern.ch/pokemon/displays/",
+        "https://www.goodgamesbern.ch/pokemon/sets/me06-delta-reign/",
+        "https://www.goodgamesbern.ch/pokemon/sets/pokemon-30th-anniversary/"
       ],
       "all_pokemon": true,
       "link_must_contain": [
         "/pokemon/pokemon-"
       ],
-      "enabled": false
+      "country": "CH",
+      "enabled": true
     },
     {
-      "name": "Sparkleaf (Preise in EUR)",
+      "name": "Sparkleaf",
       "type": "shopify",
       "url": "https://sparkleaf.ch",
-      "currency": "EUR",
-      "pages": 2,
-      "enabled": false
+      "currency": "CHF",
+      "pages": 4,
+      "enabled": true,
+      "country": "CH"
     },
     {
       "name": "BEISPIEL YouTube-Kanal",
@@ -210,6 +241,32 @@
       "handle": "kanalname",
       "all_pokemon": true,
       "enabled": false
+    }
+  ],
+  "directory": [
+    {
+      "name": "Pokémon Center Deutschland",
+      "url": "https://www.pokemoncenter.com/de-de",
+      "country": "DE",
+      "note": "Offizieller Shop, Bot-Schutz: nicht automatisch abrufbar. Lieferung in die Schweiz selbst prüfen."
+    },
+    {
+      "name": "Cardmex",
+      "url": "https://cardmex-shop.de",
+      "country": "DE",
+      "note": "Vor allem Einzelkarten, nicht automatisch abrufbar."
+    },
+    {
+      "name": "Galaxus",
+      "url": "https://www.galaxus.ch/de/search?q=pokemon+vorbestellung",
+      "country": "CH",
+      "note": "Bot-Schutz und Marketplace-Verkäufer mit Reseller-Preisen: nur manuell."
+    },
+    {
+      "name": "Müller",
+      "url": "https://www.mueller.ch/search/?q=pokemon+booster",
+      "country": "CH",
+      "note": "Fast nur Zubehör, kaum Booster/Displays."
     }
   ]
 }

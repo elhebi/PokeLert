@@ -308,7 +308,8 @@ def parse_shop_html(text, src, page_url):
 # ---------------------------------------------------------------- Preisbewertung
 def rate(it, cfg, uvp):
     """Ergänzt UVP, Richtpreis und Bewertung (fair / teuer / reseller)."""
-    it.update(uvp_eur=None, uvp_name="", rating="", price_chf=None, ratio=None)
+    it.update(uvp_eur=None, uvp_chf=None, uvp_is_ref=False, uvp_name="", rating="", price_chf=None, ratio=None)
+    foreign = it.get("country", "CH") != "CH"
     title = it["title"].lower()
     prod = None
     for p in uvp["products"]:
@@ -326,8 +327,13 @@ def rate(it, cfg, uvp):
         return
     price_chf = it["price"] if it["currency"] == "CHF" else it["price"] * rate_eur
     it["price_chf"] = round(price_chf, 2)
-    ratio = price_chf / (prod["uvp_eur"] * rate_eur)
+    uvp_chf = prod.get("chf_ref") or prod["uvp_eur"] * rate_eur
+    it["uvp_chf"] = round(uvp_chf, 2)
+    it["uvp_is_ref"] = bool(prod.get("chf_ref"))
+    ratio = price_chf / uvp_chf
     it["ratio"] = round(ratio, 2)
+    if foreign:
+        return  # Ausland: Preis nur anzeigen (Zoll/MwSt/Versand nicht vergleichbar), keine Bewertung
     th = uvp["thresholds"]
     it["rating"] = "fair" if ratio <= th["fair"] else "teuer" if ratio <= th["teuer"] else "reseller"
 
@@ -376,6 +382,7 @@ def collect(cfg):
                         it["kind"] = "social"
             for it in items:
                 it["all_pokemon"] = bool(src.get("all_pokemon"))
+                it["country"] = src.get("country", "CH")
                 it["extra_ignore"] = src.get("ignore", [])
             log(f"{name}: {len(items)} Einträge")
             out.extend(items)
@@ -411,12 +418,13 @@ def format_alert(rec, eur_chf):
     e = html.escape
     lines = [f"{EVENT_HEAD[rec['event']]}", f"<b>{e(rec['title'])}</b>"]
     if rec["kind"] == "shop":
-        lines.append(f"🏪 {e(rec['source'])}")
+        lines.append(f"🏪 {e(rec['source'])}" + ("  🌍 Ausland – Zoll/MwSt prüfen" if rec.get("country", "CH") != "CH" else ""))
         if rec.get("price") is not None:
             r = {"fair": "✅ fairer Preis", "teuer": "⚠️ über UVP", "reseller": "🚫 Reseller-Preis"}.get(rec.get("rating"), "")
             lines.append(f"💰 {rec['currency']} {rec['price']:.2f} {r}".strip())
         if rec.get("uvp_eur"):
-            lines.append(f"UVP: € {rec['uvp_eur']:.2f} (≈ CHF {rec['uvp_eur'] * eur_chf:.2f})")
+            ref = "CH-Richtpreis" if rec.get("uvp_is_ref") else "umgerechnet"
+            lines.append(f"UVP: € {rec['uvp_eur']:.2f} · {ref} CHF {rec.get('uvp_chf') or rec['uvp_eur'] * eur_chf:.2f}")
         if rec.get("release"):
             lines.append(f"📅 Release: {fmt_date(rec['release'])}")
     else:
@@ -447,7 +455,7 @@ td{padding:9px 10px;border-top:1px solid var(--line);vertical-align:top}
 tr.grp td{background:var(--bg);font-weight:600;font-size:.9rem}
 .badge{display:inline-block;border-radius:6px;padding:2px 8px;font-size:.78rem;white-space:nowrap}
 .fair{background:var(--okbg);color:var(--ok)}.teuer{background:var(--warnbg);color:var(--warn)}
-.reseller{background:var(--badbg);color:var(--bad)}.none{background:var(--line);color:var(--mut)}
+.abroad{background:#e0ecff;color:#1d4ed8}.reseller{background:var(--badbg);color:var(--bad)}.none{background:var(--line);color:var(--mut)}
 .new{background:var(--acc);color:#fff;margin-left:6px}small{color:var(--mut)}
 .card{padding:10px 12px;margin:6px 0}details{margin-top:18px}summary{cursor:pointer;font-weight:600}
 .hide{display:none}
@@ -455,11 +463,13 @@ tr.grp td{background:var(--bg);font-weight:600;font-size:.9rem}
 """
 
 JS = """
-const st={r:'all',a:'all'};
+const st={r:'all',a:'all',c:'all'};
 function ap(){document.querySelectorAll('tr.row').forEach(r=>{
  let ok=true;
  if(st.r==='good'&&!(r.dataset.rating==='fair'||r.dataset.rating===''||r.dataset.rating==='teuer'))ok=false;
  if(st.a==='yes'&&r.dataset.avail!=='1')ok=false;
+ if(st.c==='ch'&&r.dataset.country!=='CH')ok=false;
+ if(st.c==='abroad'&&r.dataset.country==='CH')ok=false;
  r.classList.toggle('hide',!ok);});}
 document.querySelectorAll('.filters button').forEach(b=>b.addEventListener('click',()=>{
  const k=b.dataset.k,v=b.dataset.v;st[k]=v;
@@ -503,15 +513,19 @@ def render_site(state, releases, eur_chf, th):
                 head = "Release-Datum unbekannt"
             rows += f'<tr class="grp"><td colspan="6">{head}</td></tr>'
         rt = i.get("rating", "")
+        cty = i.get("country", "CH")
         badge = {"fair": '<span class="badge fair">✅ fair</span>',
                  "teuer": '<span class="badge teuer">⚠️ über UVP</span>',
                  "reseller": '<span class="badge reseller">🚫 Reseller?</span>'}.get(
             rt, '<span class="badge none">kein Vergleich</span>')
-        uvp = (f"€ {i['uvp_eur']:.2f}<br><small>≈ CHF {i['uvp_eur'] * eur_chf:.2f}</small>"
+        if cty != "CH":
+            badge = '<span class="badge abroad">🌍 Ausland</span><br><small>Zoll/MwSt prüfen</small>'
+        uvp = (f"€ {i['uvp_eur']:.2f}<br><small>{'CH-Richtpreis' if i.get('uvp_is_ref') else '≈'} "
+               f"CHF {(i.get('uvp_chf') or i['uvp_eur'] * eur_chf):.2f}</small>"
                if i.get("uvp_eur") else "–")
         avail = {True: "✅ bestellbar", False: "❌ ausverkauft"}.get(i.get("available"), "?")
         new = '<span class="badge new">NEU</span>' if i.get("alerted") and i["first_seen"][:10] >= today.isoformat() else ""
-        rows += (f'<tr class="row" data-rating="{rt}" data-avail="{1 if i.get("available") else 0}">'
+        rows += (f'<tr class="row" data-country="{cty}" data-rating="{rt}" data-avail="{1 if i.get("available") else 0}">'
                  f'<td><a href="{e(i["url"])}">{e(i["title"])}</a>{new}<br><small>{e(i["source"])}</small></td>'
                  f'<td>{money(i["currency"], i.get("price"))}</td><td>{uvp}</td><td>{badge}</td>'
                  f'<td>{avail}</td><td></td></tr>')
@@ -534,6 +548,14 @@ def render_site(state, releases, eur_chf, th):
     src = "".join(
         f'<tr><td>{e(n)}</td><td>{s["count"]}</td><td>{e(s["error"]) or "ok"}</td></tr>'
         for n, s in sorted(state.get("sources", {}).items()))
+    cfg_now = load_json(CONFIG_FILE, {})
+    auto = [x for x in cfg_now.get("sources", []) if x.get("type") in ("shop", "shopify", "wog") and x.get("enabled") is not False]
+    drows = "".join(
+        f'<tr><td>{"🇨🇭" if x.get("country", "CH") == "CH" else "🌍"} {e(x["name"].split(" (")[0])}</td>'
+        f'<td>automatisch überwacht</td><td></td></tr>' for x in auto)
+    drows += "".join(
+        f'<tr><td>{"🇨🇭" if d.get("country", "CH") == "CH" else "🌍"} <a href="{e(d["url"])}">{e(d["name"])}</a></td>'
+        f'<td>manuell prüfen</td><td><small>{e(d.get("note", ""))}</small></td></tr>' for d in cfg_now.get("directory", []))
     return f"""<!doctype html><html lang="de"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1"><title>PokeLert</title>
 <style>{CSS}</style></head><body><main>
@@ -544,11 +566,15 @@ def render_site(state, releases, eur_chf, th):
 <div class="filters"><button class="on" data-k="r" data-v="all">Alle Preise</button>
 <button data-k="r" data-v="good">Ohne Reseller-Preise</button>
 <button class="on" data-k="a" data-v="all">Alle Stati</button>
-<button data-k="a" data-v="yes">Nur bestellbar</button></div>
+<button data-k="a" data-v="yes">Nur bestellbar</button>
+<button class="on" data-k="c" data-v="all">Inland + Ausland</button>
+<button data-k="c" data-v="ch">🇨🇭 Nur Inland</button>
+<button data-k="c" data-v="abroad">🌍 Nur Ausland</button></div>
 {table}
 <p class="meta">Bewertung: Shop-Preis im Vergleich zur UVP (Euro, umgerechnet). ✅ = bis +{round((th['fair'] - 1) * 100)} %, ⚠️ = bis +{round((th['teuer'] - 1) * 100)} %, 🚫 = darüber.</p>
 <details><summary>Weitere Shop-Angebote ({len(other)})</summary>{oth or '<p class="meta">Keine.</p>'}</details>
 <details><summary>News &amp; Community ({len(news)})</summary>{nw or '<p class="meta">Keine.</p>'}</details>
+<details><summary>Shop-Verzeichnis</summary><div class="box tw"><table><tr><th>Shop</th><th>Status</th><th>Hinweis</th></tr>{drows}</table></div></details>
 <details><summary>Quellenstatus</summary><div class="box tw"><table><tr><th>Quelle</th><th>Einträge</th><th>Status</th></tr>{src}</table></div></details>
 </main><script>{JS}</script></body></html>"""
 
@@ -557,7 +583,9 @@ def render_site(state, releases, eur_chf, th):
 def run(cfg, dry=False, alert_initial=False, show=False):
     uvp = load_json(UVP_FILE, {"products": [], "eur_chf": 0.93, "thresholds": {"fair": 1.1, "teuer": 1.3}})
     state = load_json(STATE_FILE, {})
+    old_sig, old_written = state.get("sig"), state.get("written_at", 0)
     if state.get("version") != STATE_VERSION:
+        old_sig = None
         state = {"version": STATE_VERSION, "items": {}, "reminders": [], "sources": {}, "last_run": ""}
     first_run = not state["items"]
     releases = load_json(RELEASES_FILE, [])
@@ -603,7 +631,7 @@ def run(cfg, dry=False, alert_initial=False, show=False):
                 event = "release_news"
         rec = dict(old or {})
         keep = ["title", "url", "source", "kind", "price", "currency", "available", "preorder",
-                "release", "uvp_eur", "uvp_name", "rating", "price_chf", "ratio"]
+                "release", "country", "uvp_eur", "uvp_chf", "uvp_is_ref", "uvp_name", "rating", "price_chf", "ratio"]
         rec.update({k: it.get(k) for k in keep if k in it})
         rec.setdefault("first_seen", now_iso())
         rec.update(id=iid, last_seen=now_iso(), summary=(it.get("summary") or "")[:200])
@@ -650,7 +678,15 @@ def run(cfg, dry=False, alert_initial=False, show=False):
         del state["items"][v["id"]]
     state["reminders"] = state["reminders"][-200:]
 
-    if not dry:
+    sig = hashlib.sha1(json.dumps(
+        [{k: {a: b for a, b in v.items() if a != "last_seen"} for k, v in state["items"].items()},
+         state["reminders"], {k: [v["count"], v["error"]] for k, v in state["sources"].items()}],
+        ensure_ascii=False, sort_keys=True).encode()).hexdigest()
+    changed = sig != old_sig or time.time() - old_written > 6 * 3600
+    if not dry and not changed:
+        log("Keine Änderungen – nichts zu speichern.")
+    if not dry and changed:
+        state["sig"], state["written_at"] = sig, time.time()
         STATE_FILE.write_text(json.dumps(state, ensure_ascii=False, indent=1), encoding="utf-8")
         SITE_FILE.parent.mkdir(exist_ok=True)
         SITE_FILE.write_text(render_site(state, releases, eur_chf, uvp['thresholds']), encoding="utf-8")
