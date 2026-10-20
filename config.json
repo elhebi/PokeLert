@@ -268,5 +268,9 @@
       "country": "CH",
       "note": "Fast nur Zubehör, kaum Booster/Displays."
     }
+  ],
+  "alert_languages": [
+    "DE",
+    "EN"
   ]
 }

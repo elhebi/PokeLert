@@ -93,7 +93,24 @@ def clean(s):
 
 def norm_url(u):
     u, _ = urllib.parse.urldefrag(u)
-    return u.split("?")[0].rstrip("/")
+    base, _, query = u.partition("?")
+    v = re.search(r"(?:^|&)variant=(\d+)", query)
+    return base.rstrip("/") + (f"?variant={v.group(1)}" if v else "")
+
+
+LANGS = [("DE", r"deutsch|german|\(de\)|-\s*de\b"), ("EN", r"englisch|english|\(en\)|-\s*en\b"),
+         ("FR", r"franz[öo]sisch|french|français|\(fr\)|-\s*fr\b"),
+         ("IT", r"italienisch|italian|italiano|\(it\)|-\s*it\b"),
+         ("JP", r"japanisch|japanese|\bjpn\b|\(jp\)|-\s*jp\b"), ("CN", r"chinesisch|chinese|\bt?chn\b|\(cn\)|-\s*cn\b"),
+         ("KR", r"koreanisch|korean|\(kr\)")]
+
+
+def detect_language(text):
+    t = (text or "").lower()
+    for code, rx in LANGS:
+        if re.search(rx, t):
+            return code
+    return ""
 
 
 def parse_num(s):
@@ -211,17 +228,28 @@ def parse_shopify(src):
             break
         for p in prods:
             variants = p.get("variants") or []
-            prices = [parse_num(str(v.get("price", ""))) for v in variants]
-            prices = [x for x in prices if x]
             tags = p.get("tags", "")
             tags = " ".join(tags) if isinstance(tags, list) else str(tags)
             title = p.get("title", "")
             blob = f"{title} {tags} {p.get('product_type', '')}"
-            items.append(shop_item(
-                src, title, f"{base}/products/{p.get('handle', '')}",
-                min(prices) if prices else None, src.get("currency", "CHF"),
-                any(v.get("available") for v in variants) if variants else None,
-                src.get("preorder_page") or bool(PREORDER_RE.search(blob)), None))
+            pre = src.get("preorder_page") or bool(PREORDER_RE.search(blob))
+            url = f"{base}/products/{p.get('handle', '')}"
+            lang_vars = [(detect_language(v.get("title", "")), v) for v in variants if len(variants) > 1]
+            if lang_vars and all(l for l, _ in lang_vars) and len({l for l, _ in lang_vars}) == len(lang_vars):
+                # Ein Eintrag pro Sprachvariante (Preis und Lager können je Sprache verschieden sein)
+                for lang, v in lang_vars:
+                    price = parse_num(str(v.get("price", "")))
+                    it = shop_item(src, f"{title} ({lang})", f"{url}?variant={v.get('id')}",
+                                   price or None, src.get("currency", "CHF"),
+                                   bool(v.get("available")), pre, None)
+                    it["language"] = lang
+                    items.append(it)
+                continue
+            prices = [parse_num(str(v.get("price", ""))) for v in variants]
+            prices = [x for x in prices if x]
+            it = shop_item(src, title, url, min(prices) if prices else None, src.get("currency", "CHF"),
+                           any(v.get("available") for v in variants) if variants else None, pre, None)
+            items.append(it)
         if len(prods) < 250:
             break
     return items
@@ -383,6 +411,8 @@ def collect(cfg):
             for it in items:
                 it["all_pokemon"] = bool(src.get("all_pokemon"))
                 it["country"] = src.get("country", "CH")
+                if it["kind"] == "shop" and not it.get("language"):
+                    it["language"] = detect_language(it["title"])
                 it["extra_ignore"] = src.get("ignore", [])
             log(f"{name}: {len(items)} Einträge")
             out.extend(items)
@@ -526,7 +556,7 @@ def render_site(state, releases, eur_chf, th):
         avail = {True: "✅ bestellbar", False: "❌ ausverkauft"}.get(i.get("available"), "?")
         new = '<span class="badge new">NEU</span>' if i.get("alerted") and i["first_seen"][:10] >= today.isoformat() else ""
         rows += (f'<tr class="row" data-country="{cty}" data-rating="{rt}" data-avail="{1 if i.get("available") else 0}">'
-                 f'<td><a href="{e(i["url"])}">{e(i["title"])}</a>{new}<br><small>{e(i["source"])}</small></td>'
+                 f'<td><a href="{e(i["url"])}">{e(i["title"])}</a>{new}<br><small>{e(i["source"])}{" · " + i["language"] if i.get("language") else ""}</small></td>'
                  f'<td>{money(i["currency"], i.get("price"))}</td><td>{uvp}</td><td>{badge}</td>'
                  f'<td>{avail}</td><td></td></tr>')
     table = (f'<div class="box tw"><table><tr><th>Produkt / Shop</th><th>Shop-Preis</th><th>UVP</th>'
@@ -619,6 +649,8 @@ def run(cfg, dry=False, alert_initial=False, show=False):
                 event = "restock"
             if event and it["rating"] not in ok_ratings:
                 event = None  # Reseller-Preis: nur auf der Website, kein Alert
+            if event and it.get("language") and it["language"] not in cfg.get("alert_languages", ["DE", "EN"]):
+                event = None  # andere Sprache (z. B. FR/IT/JP): nur auf der Website
         else:
             if show:
                 print(f"  [{it['source']}] {it['title'][:90]}")
@@ -631,7 +663,7 @@ def run(cfg, dry=False, alert_initial=False, show=False):
                 event = "release_news"
         rec = dict(old or {})
         keep = ["title", "url", "source", "kind", "price", "currency", "available", "preorder",
-                "release", "country", "uvp_eur", "uvp_chf", "uvp_is_ref", "uvp_name", "rating", "price_chf", "ratio"]
+                "release", "country", "language", "uvp_eur", "uvp_chf", "uvp_is_ref", "uvp_name", "rating", "price_chf", "ratio"]
         rec.update({k: it.get(k) for k in keep if k in it})
         rec.setdefault("first_seen", now_iso())
         rec.update(id=iid, last_seen=now_iso(), summary=(it.get("summary") or "")[:200])
