@@ -272,5 +272,268 @@
   "alert_languages": [
     "DE",
     "EN"
+  ],
+  "repo": "elhebi/PokeLert",
+  "sets": [
+    {
+      "id": "me06",
+      "name": "Delta-Herrschaft (ME06)",
+      "aliases": [
+        "delta herrschaft",
+        "delta reign",
+        "delta",
+        "me06"
+      ],
+      "current": true
+    },
+    {
+      "id": "me05",
+      "name": "Dunkelnacht (ME05)",
+      "aliases": [
+        "dunkelnacht",
+        "pitch black",
+        "me05"
+      ],
+      "current": true
+    },
+    {
+      "id": "me04",
+      "name": "Wachsendes Chaos (ME04)",
+      "aliases": [
+        "wachsendes chaos",
+        "chaos rising",
+        "me04"
+      ],
+      "current": true
+    },
+    {
+      "id": "me03",
+      "name": "Perfekte Ordnung (ME03)",
+      "aliases": [
+        "perfekte ordnung",
+        "perfect order",
+        "me03"
+      ],
+      "current": true
+    },
+    {
+      "id": "me2.5",
+      "name": "Erhabene Helden (ME2.5)",
+      "aliases": [
+        "erhabene helden",
+        "ascended heroes",
+        "me2 5",
+        "me02 5",
+        "me5.5",
+        "me05.5"
+      ],
+      "current": true
+    },
+    {
+      "id": "me02",
+      "name": "Fatale Flammen (ME02)",
+      "aliases": [
+        "fatale flammen",
+        "phantasmal flames",
+        "me02"
+      ],
+      "current": true
+    },
+    {
+      "id": "me01",
+      "name": "Mega-Entwicklung (ME01)",
+      "aliases": [
+        "mega entwicklung",
+        "mega evolution",
+        "me01"
+      ],
+      "current": true,
+      "fallback": true
+    },
+    {
+      "id": "30j",
+      "name": "30 Jahre / 30th Celebration",
+      "aliases": [
+        "30 jahre",
+        "30th",
+        "30 anniversary",
+        "30th anniversary",
+        "30th celebration",
+        "30e anniversaire"
+      ],
+      "current": true
+    },
+    {
+      "id": "sv10.5",
+      "name": "Schwarze Blitze & Weiße Flammen (SV10.5)",
+      "aliases": [
+        "schwarze blitze",
+        "weisse flammen",
+        "black bolt",
+        "white flare",
+        "sv10 5",
+        "sv10.5"
+      ],
+      "current": false
+    },
+    {
+      "id": "sv10",
+      "name": "Ewige Rivalen (SV10)",
+      "aliases": [
+        "ewige rivalen",
+        "destined rivals",
+        "sv10"
+      ],
+      "current": false
+    },
+    {
+      "id": "sv09",
+      "name": "Reisegefährten (SV09)",
+      "aliases": [
+        "reisegefahrten",
+        "reisegefaehrten",
+        "journey together",
+        "sv09"
+      ],
+      "current": false
+    },
+    {
+      "id": "sv8.5",
+      "name": "Prismatische Entwicklungen (SV8.5)",
+      "aliases": [
+        "prismatische entwicklungen",
+        "prismatic evolutions",
+        "sv8 5",
+        "sv08 5"
+      ],
+      "current": false
+    },
+    {
+      "id": "sv08",
+      "name": "Stürmische Funken (SV08)",
+      "aliases": [
+        "sturmische funken",
+        "surging sparks",
+        "sv08"
+      ],
+      "current": false
+    },
+    {
+      "id": "sv07",
+      "name": "Stellarkrone (SV07)",
+      "aliases": [
+        "stellarkrone",
+        "stellar crown",
+        "sv07"
+      ],
+      "current": false
+    },
+    {
+      "id": "sv6.5",
+      "name": "Nebel der Sagen (SV6.5)",
+      "aliases": [
+        "nebel der sagen",
+        "shrouded fable",
+        "sv6 5",
+        "sv06 5"
+      ],
+      "current": false
+    },
+    {
+      "id": "sv06",
+      "name": "Maskerade im Zwielicht (SV06)",
+      "aliases": [
+        "maskerade im zwielicht",
+        "twilight masquerade",
+        "sv06"
+      ],
+      "current": false
+    },
+    {
+      "id": "sv05",
+      "name": "Gewalten der Zeit (SV05)",
+      "aliases": [
+        "gewalten der zeit",
+        "temporal forces",
+        "forces temporelles",
+        "sv05"
+      ],
+      "current": false
+    },
+    {
+      "id": "sv4.5",
+      "name": "Paldeas Schicksale (SV4.5)",
+      "aliases": [
+        "paldeas schicksale",
+        "paldean fates",
+        "sv4 5",
+        "sv04 5"
+      ],
+      "current": false
+    },
+    {
+      "id": "sv04",
+      "name": "Paradoxrift (SV04)",
+      "aliases": [
+        "paradoxrift",
+        "paradox rift",
+        "sv04"
+      ],
+      "current": false
+    },
+    {
+      "id": "sv3.5",
+      "name": "Karmesin & Purpur 151 (SV3.5)",
+      "aliases": [
+        "karmesin purpur 151",
+        "scarlet violet 151",
+        "pokemon 151",
+        "151",
+        "sv3 5",
+        "sv03 5"
+      ],
+      "current": false
+    },
+    {
+      "id": "sv03",
+      "name": "Obsidian-Flammen (SV03)",
+      "aliases": [
+        "obsidian flammen",
+        "obsidian flames",
+        "sv03"
+      ],
+      "current": false
+    },
+    {
+      "id": "sv02",
+      "name": "Entwicklungen in Paldea (SV02)",
+      "aliases": [
+        "entwicklungen in paldea",
+        "paldea evolved",
+        "sv02"
+      ],
+      "current": false
+    },
+    {
+      "id": "sv01",
+      "name": "Karmesin & Purpur Basis (SV01)",
+      "aliases": [
+        "karmesin purpur basis",
+        "karmesin purpur base",
+        "scarlet violet base",
+        "sv01"
+      ],
+      "current": false
+    },
+    {
+      "id": "crown",
+      "name": "Zenit der Könige",
+      "aliases": [
+        "zenit der konige",
+        "crown zenith",
+        "swsh12 5"
+      ],
+      "current": false
+    }
   ]
 }
