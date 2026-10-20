@@ -18,7 +18,7 @@
    "ratio": null,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "35d8a7aac6cc1836",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "country": "CH",
@@ -43,7 +43,7 @@
    "ratio": null,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "d458116b6a4bacce",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "country": "CH",
@@ -68,7 +68,7 @@
    "ratio": null,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "1081ef8a043649a3",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": true,
    "country": "CH",
@@ -93,7 +93,7 @@
    "ratio": 2.3,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "8967dd5d4e2dbccc",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "country": "CH",
@@ -118,7 +118,7 @@
    "ratio": null,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "cf20c0a77776735b",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "country": "CH",
@@ -143,7 +143,7 @@
    "ratio": null,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "cedb4f08eb9c35b7",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "country": "CH",
@@ -168,7 +168,7 @@
    "ratio": 1.97,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "1dadf5b593ab8afb",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "country": "CH",
@@ -193,7 +193,7 @@
    "ratio": 1.34,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "ba4a05290e930f29",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": true,
    "country": "CH",
@@ -218,7 +218,7 @@
    "ratio": 1.54,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "633553aa7ef7732c",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "country": "CH",
@@ -243,7 +243,7 @@
    "ratio": 1.61,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "e8b3cf41031cc348",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "country": "CH",
@@ -268,7 +268,7 @@
    "ratio": 1.72,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "6e66394fe6aec7a4",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "country": "CH",
@@ -293,7 +293,7 @@
    "ratio": null,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "71def5a16099a984",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "country": "CH",
@@ -318,7 +318,7 @@
    "ratio": 1.72,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "a3e2c3c36824de97",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "country": "CH",
@@ -343,7 +343,7 @@
    "ratio": 1.61,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "ca59d04a5873e383",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "country": "CH",
@@ -368,7 +368,7 @@
    "ratio": 2.68,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "ae382bfb9dcbfe88",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "country": "CH",
@@ -393,7 +393,7 @@
    "ratio": null,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "5992b3ef14f19511",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "country": "CH",
@@ -418,7 +418,7 @@
    "ratio": null,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "748b543aafb62c96",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "country": "CH",
@@ -443,7 +443,7 @@
    "ratio": null,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "8b149dbd383b63ff",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "country": "CH",
@@ -468,7 +468,7 @@
    "ratio": null,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "0ba77fb7b3d92f2f",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "country": "CH",
@@ -493,7 +493,7 @@
    "ratio": null,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "cb2c151b5690b04e",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "country": "CH",
@@ -518,7 +518,7 @@
    "ratio": null,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "2bfa6162e0d9e36d",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "country": "CH",
@@ -543,7 +543,7 @@
    "ratio": null,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "720b401f59c00da3",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "country": "CH",
@@ -616,7 +616,7 @@
    "ratio": 2.3,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "9bf78d29c233a396",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "country": "CH",
@@ -641,7 +641,7 @@
    "ratio": 1.76,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "a19e1c323ed19b62",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "country": "CH",
@@ -666,7 +666,7 @@
    "ratio": 1.92,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "aa7ccc391f62ead1",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "country": "CH",
@@ -763,7 +763,7 @@
    "ratio": null,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "9a55616c4da0d1a2",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "country": "CH",
@@ -809,7 +809,7 @@
    "ratio": 1.59,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "2a8b9e487962d8ef",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "country": "CH",
@@ -834,7 +834,7 @@
    "ratio": null,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "a530b390c599014e",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "country": "CH",
@@ -979,7 +979,7 @@
    "ratio": null,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "898a226fab56c7f6",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "country": "CH",
@@ -1004,7 +1004,7 @@
    "ratio": null,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "77e2b3c90117a76e",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "country": "CH",
@@ -1029,7 +1029,7 @@
    "ratio": null,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "3a3609dfd7dcb309",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "country": "CH",
@@ -1054,7 +1054,7 @@
    "ratio": null,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "18442040486445c3",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "country": "CH",
@@ -1079,7 +1079,7 @@
    "ratio": null,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "ddc432db31567358",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "country": "CH",
@@ -1104,7 +1104,7 @@
    "ratio": 1.0,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "0f6c4167397bbd05",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "country": "CH",
@@ -1129,7 +1129,7 @@
    "ratio": null,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "51db65810114c254",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "country": "CH",
@@ -1154,7 +1154,7 @@
    "ratio": 1.31,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "c5d5b6964ebc0220",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": true,
    "country": "CH",
@@ -1179,7 +1179,7 @@
    "ratio": 1.31,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "eec2b8136a8f7290",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "country": "CH",
@@ -1204,7 +1204,7 @@
    "ratio": null,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "db1c92025b13c1d6",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "country": "CH",
@@ -1229,7 +1229,7 @@
    "ratio": null,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "ee3af6056ba6893e",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "country": "CH",
@@ -1254,7 +1254,7 @@
    "ratio": null,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "e6159f431ba3b39b",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "country": "CH",
@@ -1279,7 +1279,7 @@
    "ratio": null,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "2eb297b6e8a4a944",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "country": "CH",
@@ -1304,7 +1304,7 @@
    "ratio": null,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "83e5b8cde3c916ae",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "country": "CH",
@@ -1329,7 +1329,7 @@
    "ratio": null,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "3d5365716a8cac2a",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "country": "CH",
@@ -1354,7 +1354,7 @@
    "ratio": null,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "58b500d136932d98",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "country": "CH",
@@ -1379,7 +1379,7 @@
    "ratio": null,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "318238592e70c115",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "country": "CH",
@@ -1404,7 +1404,7 @@
    "ratio": 1.0,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "7a8f074def4d3e95",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "country": "CH",
@@ -1429,7 +1429,7 @@
    "ratio": 1.0,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "bf86e8997975e1a5",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "country": "CH",
@@ -1454,7 +1454,7 @@
    "ratio": 1.0,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "6a5c81ebf056cbd1",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "country": "CH",
@@ -1479,7 +1479,7 @@
    "ratio": 1.0,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "8b97daff11c789e6",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "country": "CH",
@@ -1504,7 +1504,7 @@
    "ratio": null,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "e145a4e55b12efef",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "country": "CH",
@@ -1529,7 +1529,7 @@
    "ratio": null,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "c3e270c4274b6526",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "country": "CH",
@@ -1554,7 +1554,7 @@
    "ratio": null,
    "first_seen": "2026-10-19T14:49:44+02:00",
    "id": "5c87338ae265bfaf",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "country": "CH",
@@ -2888,7 +2888,7 @@
    "ratio": 0.46,
    "first_seen": "2026-10-20T07:25:55+00:00",
    "id": "c12a9c7e1691b840",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": true,
    "country": "CH",
@@ -2913,7 +2913,7 @@
    "ratio": null,
    "first_seen": "2026-10-20T07:25:55+00:00",
    "id": "aee9d120e4dc3da3",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "country": "CH",
@@ -2938,7 +2938,7 @@
    "ratio": null,
    "first_seen": "2026-10-20T07:25:55+00:00",
    "id": "8b01d75fb915061f",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": true,
    "country": "CH",
@@ -2963,7 +2963,7 @@
    "ratio": 0.46,
    "first_seen": "2026-10-20T07:25:55+00:00",
    "id": "aee6fc7f8993264b",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "country": "CH",
@@ -3263,7 +3263,7 @@
    "ratio": null,
    "first_seen": "2026-10-20T12:52:53+00:00",
    "id": "f7c0a0aa16e70429",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "country": "CH",
@@ -3288,7 +3288,7 @@
    "ratio": null,
    "first_seen": "2026-10-20T12:52:53+00:00",
    "id": "dc5059ba4f8bb72e",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "country": "CH",
@@ -3514,7 +3514,7 @@
    "ratio": 3.23,
    "first_seen": "2026-10-20T13:46:19+00:00",
    "id": "fe8c203fd6d4b743",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "language": "DE"
@@ -3539,7 +3539,7 @@
    "ratio": 2.37,
    "first_seen": "2026-10-20T13:46:19+00:00",
    "id": "0eed1384c4fe6a46",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "language": "DE"
@@ -3564,7 +3564,7 @@
    "ratio": null,
    "first_seen": "2026-10-20T13:46:19+00:00",
    "id": "00ec7822fffe02b3",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "language": ""
@@ -3589,7 +3589,7 @@
    "ratio": 2.6,
    "first_seen": "2026-10-20T13:46:19+00:00",
    "id": "22e8a6c9638a8b1b",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "language": "EN"
@@ -3614,7 +3614,7 @@
    "ratio": 1.29,
    "first_seen": "2026-10-20T13:46:19+00:00",
    "id": "36f693984f103894",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "language": "DE"
@@ -3639,7 +3639,7 @@
    "ratio": 1.79,
    "first_seen": "2026-10-20T13:46:19+00:00",
    "id": "c146b10f6b55d0bb",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "language": "DE"
@@ -3664,7 +3664,7 @@
    "ratio": 1.72,
    "first_seen": "2026-10-20T13:46:19+00:00",
    "id": "aca1f3739a150dbe",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "language": "DE"
@@ -3689,7 +3689,7 @@
    "ratio": null,
    "first_seen": "2026-10-20T13:46:19+00:00",
    "id": "35685bcb9e3553b7",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "language": "DE"
@@ -3714,7 +3714,7 @@
    "ratio": 2.61,
    "first_seen": "2026-10-20T13:46:19+00:00",
    "id": "8331a325d66a7f3b",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "language": "EN"
@@ -3739,7 +3739,7 @@
    "ratio": null,
    "first_seen": "2026-10-20T13:46:19+00:00",
    "id": "c6bf4b115bfea452",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "language": "DE"
@@ -3764,7 +3764,7 @@
    "ratio": 3.33,
    "first_seen": "2026-10-20T13:46:19+00:00",
    "id": "1ccd245526f9539b",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "language": "EN"
@@ -3789,7 +3789,7 @@
    "ratio": 1.53,
    "first_seen": "2026-10-20T13:46:19+00:00",
    "id": "4214376be6e3726d",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "language": "EN"
@@ -3814,7 +3814,7 @@
    "ratio": 1.03,
    "first_seen": "2026-10-20T13:46:19+00:00",
    "id": "63a6c2a9e9785c70",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "language": "DE"
@@ -3839,7 +3839,7 @@
    "ratio": 0.77,
    "first_seen": "2026-10-20T13:46:19+00:00",
    "id": "ce9ad6016e7df8c3",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "language": "DE"
@@ -3864,7 +3864,7 @@
    "ratio": 1.16,
    "first_seen": "2026-10-20T13:46:19+00:00",
    "id": "f22bf8840922ad82",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "language": "DE"
@@ -3889,7 +3889,7 @@
    "ratio": 3.31,
    "first_seen": "2026-10-20T13:46:19+00:00",
    "id": "f768f28a793c490c",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "language": "EN"
@@ -3914,7 +3914,7 @@
    "ratio": null,
    "first_seen": "2026-10-20T13:46:19+00:00",
    "id": "3add13d51eeab7d7",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "language": "DE"
@@ -3939,7 +3939,7 @@
    "ratio": 1.03,
    "first_seen": "2026-10-20T13:46:19+00:00",
    "id": "7ee3be9289aa6939",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "language": "DE"
@@ -3964,7 +3964,7 @@
    "ratio": 2.69,
    "first_seen": "2026-10-20T13:46:19+00:00",
    "id": "0fcb0f41314d3c7c",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "language": "DE"
@@ -3989,7 +3989,7 @@
    "ratio": null,
    "first_seen": "2026-10-20T13:46:19+00:00",
    "id": "57c919d56c1313f8",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "language": "DE"
@@ -4014,7 +4014,7 @@
    "ratio": 1.17,
    "first_seen": "2026-10-20T13:46:19+00:00",
    "id": "41295ec9cd55240f",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "language": "EN"
@@ -4039,7 +4039,7 @@
    "ratio": 1.22,
    "first_seen": "2026-10-20T13:46:19+00:00",
    "id": "58261e0589c48d7a",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "language": "DE"
@@ -4064,7 +4064,7 @@
    "ratio": 2.69,
    "first_seen": "2026-10-20T13:46:19+00:00",
    "id": "159f20a8240d0576",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "language": "DE"
@@ -4089,7 +4089,7 @@
    "ratio": 4.62,
    "first_seen": "2026-10-20T13:46:19+00:00",
    "id": "e8b35b7ffadd009d",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "language": "EN"
@@ -4114,7 +4114,7 @@
    "ratio": null,
    "first_seen": "2026-10-20T13:46:19+00:00",
    "id": "5aa8667556310a44",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "language": "DE"
@@ -4139,7 +4139,7 @@
    "ratio": 1.23,
    "first_seen": "2026-10-20T13:46:19+00:00",
    "id": "ceab44a5c02f5ed9",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "language": "DE"
@@ -4164,7 +4164,7 @@
    "ratio": 1.41,
    "first_seen": "2026-10-20T13:46:19+00:00",
    "id": "32f83740aed46fb6",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "language": "DE"
@@ -4189,7 +4189,7 @@
    "ratio": 3.44,
    "first_seen": "2026-10-20T13:46:19+00:00",
    "id": "88b4513d5ca304a1",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "language": "EN"
@@ -4199,7 +4199,7 @@
    "url": "https://cardcosmos.ch/products/pokemon-dunkelnacht-booster-display-deutsch",
    "source": "Cardcosmos",
    "kind": "shop",
-   "price": 183.0,
+   "price": 184.0,
    "currency": "CHF",
    "available": false,
    "preorder": false,
@@ -4210,11 +4210,11 @@
    "uvp_is_ref": true,
    "uvp_name": "Booster Display (36 Booster)",
    "rating": "teuer",
-   "price_chf": 183.0,
+   "price_chf": 184.0,
    "ratio": 1.23,
    "first_seen": "2026-10-20T13:46:19+00:00",
    "id": "f0300a84a91b4fa9",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "language": "DE"
@@ -4239,7 +4239,7 @@
    "ratio": 1.34,
    "first_seen": "2026-10-20T13:46:19+00:00",
    "id": "069f7e62e8358e6c",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "language": "DE"
@@ -4264,7 +4264,7 @@
    "ratio": null,
    "first_seen": "2026-10-20T13:46:19+00:00",
    "id": "c10bdd587c6b805f",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "language": "DE"
@@ -4289,7 +4289,7 @@
    "ratio": 1.34,
    "first_seen": "2026-10-20T13:46:19+00:00",
    "id": "564f14e5b1a94b41",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "language": "DE"
@@ -4314,7 +4314,7 @@
    "ratio": 1.12,
    "first_seen": "2026-10-20T13:46:19+00:00",
    "id": "6ae12d596e5afeec",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "language": "DE"
@@ -4339,7 +4339,7 @@
    "ratio": null,
    "first_seen": "2026-10-20T13:46:19+00:00",
    "id": "1f0e613568c6b288",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "language": "DE"
@@ -4364,7 +4364,7 @@
    "ratio": null,
    "first_seen": "2026-10-20T13:46:19+00:00",
    "id": "557f9e4e45390451",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "language": "DE"
@@ -4389,7 +4389,7 @@
    "ratio": null,
    "first_seen": "2026-10-20T13:46:19+00:00",
    "id": "887e4ce0a67a579f",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "language": "DE"
@@ -4414,7 +4414,7 @@
    "ratio": 1.29,
    "first_seen": "2026-10-20T13:46:19+00:00",
    "id": "b8a0abf3e21d1b29",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "language": "DE"
@@ -4439,7 +4439,7 @@
    "ratio": 1.68,
    "first_seen": "2026-10-20T13:46:19+00:00",
    "id": "a0b87392cd27b441",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "language": "DE"
@@ -4464,7 +4464,7 @@
    "ratio": null,
    "first_seen": "2026-10-20T13:46:19+00:00",
    "id": "41f12f4bc6c47679",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "language": "DE"
@@ -4489,7 +4489,7 @@
    "ratio": null,
    "first_seen": "2026-10-20T13:46:19+00:00",
    "id": "bc285d4038160bf3",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "language": "DE"
@@ -4514,7 +4514,7 @@
    "ratio": null,
    "first_seen": "2026-10-20T13:46:19+00:00",
    "id": "232c03e91d5c2de5",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "language": "DE"
@@ -4539,7 +4539,7 @@
    "ratio": 1.79,
    "first_seen": "2026-10-20T13:46:19+00:00",
    "id": "d32f3b8b2ad43d7e",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "language": "DE"
@@ -4564,7 +4564,7 @@
    "ratio": 1.32,
    "first_seen": "2026-10-20T13:46:19+00:00",
    "id": "e5fce5c5f8855224",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "language": "DE"
@@ -4589,7 +4589,7 @@
    "ratio": 1.32,
    "first_seen": "2026-10-20T13:46:19+00:00",
    "id": "6121481746d3381f",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "language": "DE"
@@ -4614,7 +4614,7 @@
    "ratio": null,
    "first_seen": "2026-10-20T13:46:19+00:00",
    "id": "7df19875d31c6b53",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "language": "DE"
@@ -4639,7 +4639,7 @@
    "ratio": 1.68,
    "first_seen": "2026-10-20T13:46:19+00:00",
    "id": "207b819531ec5915",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "language": "DE"
@@ -4664,7 +4664,7 @@
    "ratio": 1.65,
    "first_seen": "2026-10-20T13:46:19+00:00",
    "id": "a3bf9cc8e183ddfe",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "language": "DE"
@@ -4689,7 +4689,7 @@
    "ratio": 1.03,
    "first_seen": "2026-10-20T13:46:19+00:00",
    "id": "dd372e68538407ba",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "language": "DE"
@@ -4699,7 +4699,7 @@
    "url": "https://cardcosmos.ch/products/pokemon-mega-evolution-pitch-black-booster-box-englisch",
    "source": "Cardcosmos",
    "kind": "shop",
-   "price": 183.0,
+   "price": 184.0,
    "currency": "CHF",
    "available": false,
    "preorder": false,
@@ -4710,11 +4710,11 @@
    "uvp_is_ref": true,
    "uvp_name": "Booster Display (36 Booster)",
    "rating": "teuer",
-   "price_chf": 183.0,
+   "price_chf": 184.0,
    "ratio": 1.23,
    "first_seen": "2026-10-20T13:46:19+00:00",
    "id": "b7bab4733fe2a7aa",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "language": "EN"
@@ -4739,7 +4739,7 @@
    "ratio": null,
    "first_seen": "2026-10-20T13:46:19+00:00",
    "id": "4965b890f44949aa",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "language": "DE"
@@ -4764,7 +4764,7 @@
    "ratio": 1.51,
    "first_seen": "2026-10-20T13:46:19+00:00",
    "id": "362782dd6c14b05c",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "language": "EN"
@@ -4789,7 +4789,7 @@
    "ratio": 1.79,
    "first_seen": "2026-10-20T13:46:19+00:00",
    "id": "f796d91b2b0cd2c8",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "language": "EN"
@@ -4814,7 +4814,7 @@
    "ratio": 1.92,
    "first_seen": "2026-10-20T13:46:19+00:00",
    "id": "b0bd866de5b49340",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "language": "DE"
@@ -4839,7 +4839,7 @@
    "ratio": 1.03,
    "first_seen": "2026-10-20T13:46:19+00:00",
    "id": "aecde63b49227100",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "language": "DE"
@@ -4864,7 +4864,7 @@
    "ratio": null,
    "first_seen": "2026-10-20T13:46:19+00:00",
    "id": "3261064c4e99d914",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "language": "DE"
@@ -4889,7 +4889,7 @@
    "ratio": 1.41,
    "first_seen": "2026-10-20T13:46:19+00:00",
    "id": "2358fa04009f8da5",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "language": "DE"
@@ -4914,7 +4914,7 @@
    "ratio": 1.14,
    "first_seen": "2026-10-20T13:46:19+00:00",
    "id": "c725aa86dc97a143",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "language": "DE"
@@ -4939,7 +4939,7 @@
    "ratio": 1.8,
    "first_seen": "2026-10-20T13:46:19+00:00",
    "id": "90613012e939e8cd",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "language": "DE"
@@ -4964,7 +4964,7 @@
    "ratio": 1.41,
    "first_seen": "2026-10-20T13:46:19+00:00",
    "id": "02f9a60b1c0cb665",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "language": "DE"
@@ -4989,7 +4989,7 @@
    "ratio": 1.15,
    "first_seen": "2026-10-20T13:46:19+00:00",
    "id": "6597274fe8a61d70",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "language": "DE"
@@ -5014,7 +5014,7 @@
    "ratio": 1.98,
    "first_seen": "2026-10-20T13:46:19+00:00",
    "id": "9159b9d0384e363a",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "language": "EN"
@@ -5039,7 +5039,7 @@
    "ratio": 1.98,
    "first_seen": "2026-10-20T13:46:19+00:00",
    "id": "379d1dc7e299268b",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "language": "EN"
@@ -5064,7 +5064,7 @@
    "ratio": 1.54,
    "first_seen": "2026-10-20T13:46:19+00:00",
    "id": "5c30b156a48fde36",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "language": "DE"
@@ -5089,7 +5089,7 @@
    "ratio": 1.5,
    "first_seen": "2026-10-20T13:46:19+00:00",
    "id": "b796721dbb56ae8d",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "language": "DE"
@@ -5114,7 +5114,7 @@
    "ratio": 1.81,
    "first_seen": "2026-10-20T13:46:19+00:00",
    "id": "74c2e89bf442e886",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "language": "DE"
@@ -5139,7 +5139,7 @@
    "ratio": 1.41,
    "first_seen": "2026-10-20T13:46:19+00:00",
    "id": "8b42969683cce62e",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "language": "DE"
@@ -5164,7 +5164,7 @@
    "ratio": null,
    "first_seen": "2026-10-20T13:46:19+00:00",
    "id": "5502b3f1dddf5754",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "language": "DE"
@@ -5189,7 +5189,7 @@
    "ratio": 2.58,
    "first_seen": "2026-10-20T13:46:19+00:00",
    "id": "48cfbb9b35b3a287",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "language": "EN"
@@ -5214,7 +5214,7 @@
    "ratio": 2.58,
    "first_seen": "2026-10-20T13:46:19+00:00",
    "id": "e5a915b059be8420",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "language": "EN"
@@ -5239,7 +5239,7 @@
    "ratio": null,
    "first_seen": "2026-10-20T13:46:19+00:00",
    "id": "810b7182528e9798",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "language": "DE"
@@ -5264,7 +5264,7 @@
    "ratio": null,
    "first_seen": "2026-10-20T13:46:19+00:00",
    "id": "b77731a23b1d2945",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "language": "DE"
@@ -5289,7 +5289,7 @@
    "ratio": null,
    "first_seen": "2026-10-20T13:46:19+00:00",
    "id": "38dfc6d96f738a56",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "language": "DE"
@@ -5314,7 +5314,7 @@
    "ratio": null,
    "first_seen": "2026-10-20T13:46:19+00:00",
    "id": "bb9671e7ad895a41",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "language": "DE"
@@ -5591,7 +5591,7 @@
    "ratio": null,
    "first_seen": "2026-10-20T13:46:19+00:00",
    "id": "207e8c7033dd81c6",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "language": ""
@@ -5688,7 +5688,7 @@
    "ratio": null,
    "first_seen": "2026-10-20T13:46:19+00:00",
    "id": "33d1266fcdd481c8",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "language": "EN"
@@ -5761,7 +5761,7 @@
    "ratio": 1.31,
    "first_seen": "2026-10-20T13:46:19+00:00",
    "id": "44de45132f06732c",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "language": "DE"
@@ -5786,7 +5786,7 @@
    "ratio": 1.41,
    "first_seen": "2026-10-20T13:46:19+00:00",
    "id": "d5d93feb64340547",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "language": "DE"
@@ -5811,7 +5811,7 @@
    "ratio": null,
    "first_seen": "2026-10-20T13:46:19+00:00",
    "id": "90c4df1c686d40d8",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "language": "EN"
@@ -5836,7 +5836,7 @@
    "ratio": 1.39,
    "first_seen": "2026-10-20T13:46:19+00:00",
    "id": "e0d6e61c9ed7ecc8",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "language": "EN"
@@ -5861,7 +5861,7 @@
    "ratio": 1.81,
    "first_seen": "2026-10-20T13:46:19+00:00",
    "id": "5c6ef7b231f6adcb",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false,
    "language": "EN"
@@ -5911,7 +5911,7 @@
    "ratio": 1.39,
    "first_seen": "2026-10-20T16:01:55+02:00",
    "id": "3d69d21407164c05",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false
   },
@@ -5936,7 +5936,7 @@
    "ratio": 1.23,
    "first_seen": "2026-10-20T16:01:55+02:00",
    "id": "56662eb83573af63",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false
   },
@@ -5961,7 +5961,7 @@
    "ratio": 1.23,
    "first_seen": "2026-10-20T16:01:55+02:00",
    "id": "8504dbb4c646dd10",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false
   },
@@ -5986,7 +5986,7 @@
    "ratio": 1.4,
    "first_seen": "2026-10-20T16:01:55+02:00",
    "id": "049bddfb6b155c0a",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false
   },
@@ -6011,7 +6011,7 @@
    "ratio": 1.34,
    "first_seen": "2026-10-20T16:01:55+02:00",
    "id": "c2d4267fe1c66e82",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false
   },
@@ -6036,7 +6036,7 @@
    "ratio": 1.27,
    "first_seen": "2026-10-20T16:01:55+02:00",
    "id": "8661d4f4f363c29c",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false
   },
@@ -6061,7 +6061,7 @@
    "ratio": 1.2,
    "first_seen": "2026-10-20T16:01:55+02:00",
    "id": "f198b6ec63c03723",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false
   },
@@ -6086,7 +6086,7 @@
    "ratio": null,
    "first_seen": "2026-10-20T16:01:55+02:00",
    "id": "baccba90e0a2a1ee",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false
   },
@@ -6111,7 +6111,7 @@
    "ratio": null,
    "first_seen": "2026-10-20T16:01:55+02:00",
    "id": "8da69751cd0d89a1",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false
   },
@@ -6136,7 +6136,7 @@
    "ratio": null,
    "first_seen": "2026-10-20T16:01:55+02:00",
    "id": "7834639ab6bbcc3e",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false
   },
@@ -6161,7 +6161,7 @@
    "ratio": 1.45,
    "first_seen": "2026-10-20T16:01:55+02:00",
    "id": "54b231b2ab801823",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false
   },
@@ -6186,7 +6186,7 @@
    "ratio": 1.45,
    "first_seen": "2026-10-20T16:01:55+02:00",
    "id": "6ee2a69a12ed35f0",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false
   },
@@ -6211,7 +6211,7 @@
    "ratio": 1.45,
    "first_seen": "2026-10-20T16:01:55+02:00",
    "id": "d9ac538c1bdf18fb",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false
   },
@@ -6236,7 +6236,7 @@
    "ratio": 1.45,
    "first_seen": "2026-10-20T16:01:55+02:00",
    "id": "7510961b1a8550e7",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false
   },
@@ -6261,7 +6261,7 @@
    "ratio": 2.15,
    "first_seen": "2026-10-20T16:01:55+02:00",
    "id": "b799e27808bfb550",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false
   },
@@ -6286,7 +6286,7 @@
    "ratio": 1.79,
    "first_seen": "2026-10-20T16:01:55+02:00",
    "id": "1e5141718c18c519",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false
   },
@@ -6311,7 +6311,7 @@
    "ratio": 2.15,
    "first_seen": "2026-10-20T16:01:55+02:00",
    "id": "b07ca284acf18fa0",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false
   },
@@ -6336,7 +6336,7 @@
    "ratio": 1.79,
    "first_seen": "2026-10-20T16:01:55+02:00",
    "id": "7b838d80718a94de",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false
   },
@@ -6361,7 +6361,7 @@
    "ratio": 1.34,
    "first_seen": "2026-10-20T16:01:55+02:00",
    "id": "b2f49936084613e8",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false
   },
@@ -6386,7 +6386,7 @@
    "ratio": 1.34,
    "first_seen": "2026-10-20T16:01:55+02:00",
    "id": "a266411d727cdcb5",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false
   },
@@ -6411,7 +6411,7 @@
    "ratio": 1.34,
    "first_seen": "2026-10-20T16:01:55+02:00",
    "id": "da5654a2743f58f5",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false
   },
@@ -6436,7 +6436,7 @@
    "ratio": 1.48,
    "first_seen": "2026-10-20T16:01:55+02:00",
    "id": "0ecddaa74207279c",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false
   },
@@ -6461,7 +6461,7 @@
    "ratio": 1.48,
    "first_seen": "2026-10-20T16:01:55+02:00",
    "id": "fd7f49354ac5f8a3",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false
   },
@@ -6486,7 +6486,7 @@
    "ratio": 1.48,
    "first_seen": "2026-10-20T16:01:55+02:00",
    "id": "443262a267ebd145",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false
   },
@@ -6511,7 +6511,7 @@
    "ratio": 2.0,
    "first_seen": "2026-10-20T16:01:55+02:00",
    "id": "8a8a6089999cdafa",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false
   },
@@ -6536,7 +6536,7 @@
    "ratio": 2.0,
    "first_seen": "2026-10-20T16:01:55+02:00",
    "id": "e1a21f40f3a0a89c",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false
   },
@@ -6561,7 +6561,7 @@
    "ratio": 2.0,
    "first_seen": "2026-10-20T16:01:55+02:00",
    "id": "eba3fea4e6789c26",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false
   },
@@ -6586,7 +6586,7 @@
    "ratio": 1.39,
    "first_seen": "2026-10-20T16:01:55+02:00",
    "id": "458f604c69269262",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false
   },
@@ -6611,7 +6611,7 @@
    "ratio": 1.54,
    "first_seen": "2026-10-20T16:01:55+02:00",
    "id": "16b944d690226911",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false
   },
@@ -6636,7 +6636,7 @@
    "ratio": 1.2,
    "first_seen": "2026-10-20T16:01:55+02:00",
    "id": "b769ffac199a1eb4",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false
   },
@@ -6661,7 +6661,7 @@
    "ratio": 1.4,
    "first_seen": "2026-10-20T16:01:55+02:00",
    "id": "e6a28505d02455ba",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false
   },
@@ -6686,7 +6686,7 @@
    "ratio": 1.39,
    "first_seen": "2026-10-20T16:01:55+02:00",
    "id": "963cfdefd1978e4b",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false
   },
@@ -6711,7 +6711,7 @@
    "ratio": 1.23,
    "first_seen": "2026-10-20T16:01:55+02:00",
    "id": "23285b209e7a1ced",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false
   },
@@ -6736,7 +6736,7 @@
    "ratio": 1.08,
    "first_seen": "2026-10-20T16:01:55+02:00",
    "id": "3ee9f9b6b1426c1a",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false
   },
@@ -6761,7 +6761,7 @@
    "ratio": 1.61,
    "first_seen": "2026-10-20T16:01:55+02:00",
    "id": "a25ac206568dab67",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false
   },
@@ -6786,7 +6786,7 @@
    "ratio": 1.54,
    "first_seen": "2026-10-20T16:01:55+02:00",
    "id": "f3bc5988191a0514",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false
   },
@@ -6811,7 +6811,7 @@
    "ratio": 1.61,
    "first_seen": "2026-10-20T16:01:55+02:00",
    "id": "4b9eff91b8f187b4",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false
   },
@@ -6836,7 +6836,7 @@
    "ratio": 1.21,
    "first_seen": "2026-10-20T16:01:55+02:00",
    "id": "2049bad38dd65abf",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false
   },
@@ -6861,7 +6861,7 @@
    "ratio": 1.54,
    "first_seen": "2026-10-20T16:01:55+02:00",
    "id": "d391987500b3baa1",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false
   },
@@ -6886,7 +6886,7 @@
    "ratio": 1.54,
    "first_seen": "2026-10-20T16:01:55+02:00",
    "id": "a2d2b71c00e99dff",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false
   },
@@ -6911,7 +6911,7 @@
    "ratio": 1.54,
    "first_seen": "2026-10-20T16:01:55+02:00",
    "id": "c58aa2a83856378a",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false
   },
@@ -6936,7 +6936,7 @@
    "ratio": 2.63,
    "first_seen": "2026-10-20T16:01:55+02:00",
    "id": "118ee68bd31623b6",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false
   },
@@ -6961,7 +6961,7 @@
    "ratio": 2.63,
    "first_seen": "2026-10-20T16:01:55+02:00",
    "id": "c24dfa88674daf91",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false
   },
@@ -6986,7 +6986,7 @@
    "ratio": 2.63,
    "first_seen": "2026-10-20T16:01:55+02:00",
    "id": "22a14d3272ed6a72",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false
   },
@@ -7011,7 +7011,7 @@
    "ratio": 2.3,
    "first_seen": "2026-10-20T16:01:55+02:00",
    "id": "daa0e62d419f6a8f",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false
   },
@@ -7036,7 +7036,7 @@
    "ratio": 2.3,
    "first_seen": "2026-10-20T16:01:55+02:00",
    "id": "924e49ca3016ca3c",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false
   },
@@ -7061,7 +7061,7 @@
    "ratio": 2.3,
    "first_seen": "2026-10-20T16:01:55+02:00",
    "id": "05845b62b31ce099",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false
   },
@@ -7086,7 +7086,7 @@
    "ratio": null,
    "first_seen": "2026-10-20T16:01:55+02:00",
    "id": "fe342e5e88bb1035",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false
   },
@@ -7111,7 +7111,7 @@
    "ratio": null,
    "first_seen": "2026-10-20T16:01:55+02:00",
    "id": "780bd18f07e33372",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false
   },
@@ -7136,7 +7136,7 @@
    "ratio": null,
    "first_seen": "2026-10-20T16:01:55+02:00",
    "id": "099a597f6c9a1e51",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false
   },
@@ -7161,7 +7161,7 @@
    "ratio": 3.0,
    "first_seen": "2026-10-20T16:01:55+02:00",
    "id": "417b6767b510303a",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false
   },
@@ -7186,7 +7186,7 @@
    "ratio": 3.0,
    "first_seen": "2026-10-20T16:01:55+02:00",
    "id": "f51f12a7bff32246",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false
   },
@@ -7211,7 +7211,7 @@
    "ratio": 3.0,
    "first_seen": "2026-10-20T16:01:55+02:00",
    "id": "8618b6bc7ff06e12",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false
   },
@@ -7236,7 +7236,7 @@
    "ratio": 3.0,
    "first_seen": "2026-10-20T16:01:55+02:00",
    "id": "34cc5c78f0756dc5",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false
   },
@@ -7261,7 +7261,7 @@
    "ratio": 3.0,
    "first_seen": "2026-10-20T16:01:55+02:00",
    "id": "6561e3b6bc203642",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false
   },
@@ -7286,7 +7286,7 @@
    "ratio": 3.0,
    "first_seen": "2026-10-20T16:01:55+02:00",
    "id": "566ea4ae4b61ea2c",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false
   },
@@ -7311,7 +7311,7 @@
    "ratio": 3.22,
    "first_seen": "2026-10-20T16:01:55+02:00",
    "id": "c770bfbf5843d9b2",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false
   },
@@ -7336,7 +7336,7 @@
    "ratio": 3.22,
    "first_seen": "2026-10-20T16:01:55+02:00",
    "id": "e61d40e40bc53a74",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false
   },
@@ -7361,7 +7361,7 @@
    "ratio": 3.22,
    "first_seen": "2026-10-20T16:01:55+02:00",
    "id": "89f802a278ef159a",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false
   },
@@ -7386,7 +7386,7 @@
    "ratio": null,
    "first_seen": "2026-10-20T16:01:55+02:00",
    "id": "2ff407f839dc9d12",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false
   },
@@ -7411,7 +7411,7 @@
    "ratio": null,
    "first_seen": "2026-10-20T16:01:55+02:00",
    "id": "35afb03006212620",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false
   },
@@ -7436,7 +7436,7 @@
    "ratio": null,
    "first_seen": "2026-10-20T16:01:55+02:00",
    "id": "0682e04beba0a624",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false
   },
@@ -7461,7 +7461,7 @@
    "ratio": null,
    "first_seen": "2026-10-20T16:01:55+02:00",
    "id": "10026008b0ed4d2c",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false
   },
@@ -7486,7 +7486,7 @@
    "ratio": null,
    "first_seen": "2026-10-20T16:01:55+02:00",
    "id": "dafcaa6171f56854",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false
   },
@@ -7511,7 +7511,7 @@
    "ratio": null,
    "first_seen": "2026-10-20T16:01:55+02:00",
    "id": "f28c673f212da819",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false
   },
@@ -7536,7 +7536,7 @@
    "ratio": 2.89,
    "first_seen": "2026-10-20T16:01:55+02:00",
    "id": "cf8269a23e69ceee",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false
   },
@@ -7561,7 +7561,7 @@
    "ratio": 2.47,
    "first_seen": "2026-10-20T16:01:55+02:00",
    "id": "b38df034a809a3bf",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false
   },
@@ -7586,7 +7586,7 @@
    "ratio": 2.72,
    "first_seen": "2026-10-20T16:01:55+02:00",
    "id": "fbc678d38677f2c3",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false
   },
@@ -7611,7 +7611,7 @@
    "ratio": null,
    "first_seen": "2026-10-20T16:01:55+02:00",
    "id": "6a80f2f27cdbd9fb",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false
   },
@@ -7636,7 +7636,7 @@
    "ratio": null,
    "first_seen": "2026-10-20T16:01:55+02:00",
    "id": "768b01aad0bd6299",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false
   },
@@ -7661,7 +7661,7 @@
    "ratio": null,
    "first_seen": "2026-10-20T16:01:55+02:00",
    "id": "0335d35880f74715",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false
   },
@@ -7686,7 +7686,7 @@
    "ratio": null,
    "first_seen": "2026-10-20T16:01:55+02:00",
    "id": "c33db3501870b74c",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false
   },
@@ -7711,7 +7711,7 @@
    "ratio": null,
    "first_seen": "2026-10-20T16:01:55+02:00",
    "id": "431b59c3cd0bb09d",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false
   },
@@ -7736,7 +7736,7 @@
    "ratio": null,
    "first_seen": "2026-10-20T16:01:55+02:00",
    "id": "d7559ad84c4f3938",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false
   },
@@ -7761,7 +7761,7 @@
    "ratio": 2.68,
    "first_seen": "2026-10-20T16:01:55+02:00",
    "id": "cd1cbfa8f0e9b37b",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false
   },
@@ -7786,7 +7786,7 @@
    "ratio": 2.23,
    "first_seen": "2026-10-20T16:01:55+02:00",
    "id": "474b1bad4da06da8",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false
   },
@@ -7811,7 +7811,7 @@
    "ratio": 2.23,
    "first_seen": "2026-10-20T16:01:55+02:00",
    "id": "52f871d6dcd264ec",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false
   },
@@ -7836,7 +7836,7 @@
    "ratio": 2.93,
    "first_seen": "2026-10-20T16:01:55+02:00",
    "id": "7c606e39b373100b",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false
   },
@@ -7861,7 +7861,7 @@
    "ratio": 2.77,
    "first_seen": "2026-10-20T16:01:55+02:00",
    "id": "6f5b7a04b59b2e37",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false
   },
@@ -7886,7 +7886,19 @@
    "ratio": 2.77,
    "first_seen": "2026-10-20T16:01:55+02:00",
    "id": "8bca5aecb3f38e07",
-   "last_seen": "2026-10-20T16:01:55+02:00",
+   "last_seen": "2026-10-20T16:11:18+02:00",
+   "summary": "",
+   "alerted": false
+  },
+  "ade3f49f912a3e05": {
+   "title": "Recently posted a New-to-me-Mew, thought I would share the rest of my collection!",
+   "url": "https://www.reddit.com/r/PokemonTCG/comments/1xat35f/recently_posted_a_newtomemew_thought_i_would/",
+   "source": "Reddit r/PokemonTCG",
+   "kind": "social",
+   "country": "CH",
+   "first_seen": "2026-10-20T16:11:18+02:00",
+   "id": "ade3f49f912a3e05",
+   "last_seen": "2026-10-20T16:11:18+02:00",
    "summary": "",
    "alerted": false
   }
@@ -7896,50 +7908,50 @@
   "The Uncommon Shop (Vorbestellungen)": {
    "count": 11,
    "error": "",
-   "time": "2026-10-20T16:01:17+02:00"
+   "time": "2026-10-20T16:10:44+02:00"
   },
   "Toytans (Vorbestellungen)": {
    "count": 12,
    "error": "",
-   "time": "2026-10-20T16:01:21+02:00"
+   "time": "2026-10-20T16:10:48+02:00"
   },
   "Pikaversum": {
    "count": 800,
    "error": "",
-   "time": "2026-10-20T16:01:25+02:00"
+   "time": "2026-10-20T16:10:51+02:00"
   },
   "World of Games (WoG)": {
    "count": 164,
    "error": "",
-   "time": "2026-10-20T16:01:30+02:00"
+   "time": "2026-10-20T16:10:55+02:00"
   },
   "Cardcosmos": {
    "count": 1500,
    "error": "",
-   "time": "2026-10-20T16:01:38+02:00"
+   "time": "2026-10-20T16:11:05+02:00"
   },
   "PokeZentrum News": {
    "count": 20,
    "error": "",
-   "time": "2026-10-20T16:01:42+02:00"
+   "time": "2026-10-20T16:11:08+02:00"
   },
   "Reddit r/PokemonTCG": {
    "count": 25,
    "error": "",
-   "time": "2026-10-20T16:01:44+02:00"
+   "time": "2026-10-20T16:11:10+02:00"
   },
   "Good Games Bern": {
    "count": 41,
    "error": "",
-   "time": "2026-10-20T16:01:49+02:00"
+   "time": "2026-10-20T16:11:15+02:00"
   },
   "Sparkleaf": {
    "count": 1058,
    "error": "",
-   "time": "2026-10-20T16:01:55+02:00"
+   "time": "2026-10-20T16:11:18+02:00"
   }
  },
- "last_run": "2026-10-20T16:01:56+02:00",
- "sig": "70e55cf64115bcec3de9a81ffa37420147573811",
- "written_at": 1792504916.0127263
+ "last_run": "2026-10-20T16:11:18+02:00",
+ "sig": "5746fff332042f746d95aad2727c20a22fbe3e29",
+ "written_at": 1792505478.928889
 }
