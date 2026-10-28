@@ -83,6 +83,16 @@ table.simple{width:100%;border-collapse:collapse}table.simple th{font-size:.72re
 table.simple td{padding:9px 12px;border-top:1px solid var(--line);vertical-align:top;font-size:.92rem}
 .tw{overflow-x:auto}
 footer{color:var(--mut);font-size:.8rem;padding:6px 0 30px;text-align:center}
+.wl{flex:none;border:0;background:none;padding:2px;margin:-2px 0 0 -4px;cursor:pointer;line-height:0;border-radius:50%;color:var(--mut)}
+.wl svg{width:26px;height:34px;margin:-5px 0 -3px;display:block;transition:transform .15s}
+.wl:hover svg{transform:scale(1.14) rotate(-8deg)}
+.wl:focus-visible{outline:2px solid var(--brand)}
+.wl.on svg{animation:pop .28s}
+@keyframes pop{0%{transform:scale(.7)}60%{transform:scale(1.2)}100%{transform:scale(1)}}
+@media(prefers-color-scheme:dark){.wl svg{filter:drop-shadow(0 0 1px rgba(255,255,255,.45))}}
+.c-t.wt{display:flex;gap:8px;align-items:flex-start}.c-t.wt>div{min-width:0}
+.gone{padding:11px 16px;border-top:1px solid var(--line);display:flex;gap:8px;align-items:flex-start;opacity:.75}
+.gone b{display:block;overflow-wrap:anywhere}.gone small{color:var(--mut)}
 .hide{display:none!important}
 .ftoggle{display:none}
 @media(max-width:820px){
@@ -114,6 +124,7 @@ footer{color:var(--mut);font-size:.8rem;padding:6px 0 30px;text-align:center}
   <div class="tabs" id="tabs">
    <button data-tab="pre" class="on">Vorbestellungen<span class="n" id="n-pre"></span></button>
    <button data-tab="all">Alle Artikel &amp; Suche<span class="n" id="n-all"></span></button>
+   <button data-tab="wl">Merkliste<span class="n" id="n-wl"></span></button>
    <button data-tab="news">News<span class="n" id="n-news"></span></button>
    <button data-tab="shops">Shops</button>
   </div>
@@ -157,11 +168,19 @@ var LANGCHIPS=[['DE','DE'],['EN','EN'],['FR','FR'],['IT','IT'],['ASIA','JP/CN/KR
 function nrm(s){return ' '+String(s||'').toLowerCase().replace(/ß/g,'ss').normalize('NFD').replace(/[̀-ͯ]/g,'').replace(/[^a-z0-9]+/g,' ').trim()+' ';}
 function esc(s){return String(s==null?'':s).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];});}
 function $(id){return document.getElementById(id);}
+// ---- Merkliste (nur in diesem Browser gespeichert)
+var BALL_OPEN='<svg viewBox="-1 -9 26 34" aria-hidden="true"><g transform="rotate(14 22 10)"><path d="M2 10a10 10 0 0 1 20 0z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></g><path d="M2 13a10 10 0 0 0 20 0z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><circle cx="12" cy="13" r="2.8" fill="none" stroke="currentColor" stroke-width="1.7"/></svg>';
+var BALL_CLOSED='<svg viewBox="-1 -9 26 34" aria-hidden="true"><g transform="translate(0 1)"><path d="M2 12a10 10 0 0 1 20 0z" fill="#ee3b3b"/><path d="M2 12a10 10 0 0 0 20 0z" fill="#fff"/><circle cx="12" cy="12" r="10" fill="none" stroke="#222" stroke-width="1.7"/><path d="M2 12h20" stroke="#222" stroke-width="1.7"/><circle cx="12" cy="12" r="3.2" fill="#fff" stroke="#222" stroke-width="1.7"/></g></svg>';
+var WL={};
+try{var _w=JSON.parse(localStorage.getItem('pokelert.wishlist')||'{}');if(_w&&typeof _w==='object'&&!Array.isArray(_w))WL=_w;}catch(e){}
+function saveWL(){try{localStorage.setItem('pokelert.wishlist',JSON.stringify(WL));}catch(e){}}
+function wlCount(){return Object.keys(WL).length;}
+function wlButton(u,on){return '<button type="button" class="wl'+(on?' on':'')+'" data-u="'+esc(u)+'" aria-pressed="'+(on?'true':'false')+'" title="'+(on?'Aus Merkliste entfernen':'Auf die Merkliste')+'" aria-label="'+(on?'Aus Merkliste entfernen':'Auf die Merkliste setzen')+'">'+(on?BALL_CLOSED:BALL_OPEN)+'</button>';}
 var today=new Date(D.meta.today+'T00:00:00');
 function days(iso){return Math.round((new Date(iso+'T00:00:00')-today)/86400000);}
 function fdate(iso){var p=iso.split('-');return p[2]+'.'+p[1]+'.'+p[0];}
 function chf(v){return v==null?'–':'CHF '+v.toFixed(2);}
-function money(it){return it.p==null?'–':it.cur+' '+it.p.toFixed(2);}
+function money(it){return it.p==null?'Preis folgt':it.cur+' '+it.p.toFixed(2);}
 // ---- Items vorbereiten
 var items=D.items;
 items.forEach(function(it){
@@ -205,16 +224,18 @@ function syncUI(){
  langBox.querySelectorAll('.chip').forEach(function(b){b.classList.toggle('on',S.lang.split(',').indexOf(b.dataset.l)>=0);});
  document.querySelectorAll('#tabs button').forEach(function(b){b.classList.toggle('on',b.dataset.tab===S.tab);});
  $('l-status').classList.toggle('hide',S.tab!=='all');
+ $('optrow').style.display=S.tab==='wl'?'none':'';
 }
 // ---- Filtern & Sortieren
 var shown=100;
 function matches(it){
+ if(S.tab==='wl'&&!WL[it.u])return false;
  if(S.tab==='pre'&&!it.isPre)return false;
  if(S.tab==='all'){
   if(S.status==='pre'&&!it.isPre)return false;
   if(S.status==='shelf'&&it.isPre)return false;
  }
- if(S.old!=='1'&&!it.show)return false;
+ if(S.tab!=='wl'&&S.old!=='1'&&!it.show)return false;
  if(S.type!=='all'&&it.ty!==S.type)return false;
  if(S.set!=='all'&&it.st!==S.set)return false;
  if(S.shop!=='all'&&it.s!==S.shop)return false;
@@ -266,7 +287,8 @@ function rowHTML(it,grouped){
  if(it.ue){uvp='€ '+it.ue.toFixed(2)+'<span class="sub">'+(it.ur?'CH-Richtpreis ':'≈ ')+chf(it.uc)+'</span>';}
  var diff=(it.ra!=null&&it.c==='CH')?'<span class="sub">'+(it.ra>=1?'+':'')+Math.round((it.ra-1)*100)+' % zum Richtpreis</span>':'';
  var st=it.a===1?'<span class="st-yes">✅ bestellbar</span>':it.a===0?'<span class="st-no">❌ ausverkauft</span>':'<span class="st-unk">? unbekannt</span>';
- return '<div class="item"><div class="c-t"><a class="t" href="'+esc(it.u)+'" target="_blank" rel="noopener">'+esc(it.t)+'</a></div><div class="c-m"><div class="meta">'+meta+'</div></div>'+
+ var on=!!WL[it.u];
+ return '<div class="item"><div class="c-t wt">'+wlButton(it.u,on)+'<div><a class="t" href="'+esc(it.u)+'" target="_blank" rel="noopener">'+esc(it.t)+'</a></div></div><div class="c-m"><div class="meta">'+meta+'</div></div>'+
   '<div class="c-p"><span class="price">'+esc(money(it))+'</span></div>'+
   '<div class="c-u">'+uvp+'</div>'+
   '<div class="c-r">'+ratingBadge(it)+diff+'</div>'+
@@ -274,10 +296,10 @@ function rowHTML(it,grouped){
 }
 function render(){
  var list=items.filter(matches).sort(cmp);
- var base=items.filter(function(it){return S.tab==='pre'?it.isPre:true;}).length;
+ var base=S.tab==='wl'?items.filter(function(it){return WL[it.u];}).length:items.filter(function(it){return S.tab==='pre'?it.isPre:true;}).length;
  $('count').textContent=list.length+' von '+base+' Artikeln';
  var box=$('list');
- if(!list.length){box.innerHTML='<div class="empty">Keine Treffer. Lockere die Filter oder aktiviere «Auch ältere Sets».</div>';$('more').classList.add('hide');}
+ if(!list.length){box.innerHTML='<div class="empty">'+(S.tab==='wl'&&!base&&!wlCount()?'Noch nichts gemerkt. Tippe bei einem Artikel auf den offenen Pokéball – er schliesst sich und der Artikel landet hier.':S.tab==='wl'&&!base?'Keiner deiner gemerkten Artikel ist aktuell in einem überwachten Shop gelistet.':'Keine Treffer. Lockere die Filter oder aktiviere «Auch ältere Sets».')+'</div>';$('more').classList.add('hide');}
  else{
   var out='<div class="item head"><div>Produkt / Shop</div><div>Shop-Preis</div><div>UVP / Richtpreis</div><div>Bewertung</div><div>Status</div></div>';
   var last=null,sorted=(S.sort||(S.tab==='all'?'new':'release'))==='release';
@@ -290,7 +312,9 @@ function render(){
   $('more').classList.toggle('hide',list.length<=shown);
   $('more').textContent='Mehr anzeigen ('+(list.length-shown)+' weitere)';
  }
- $('hint').textContent=S.tab==='pre'?'Bewertung: Shop-Preis im Vergleich zum Richtpreis. ✅ bis +'+Math.round((D.meta.th.fair-1)*100)+' %, ⚠️ bis +'+Math.round((D.meta.th.teuer-1)*100)+' %, 🚫 darüber. Auslandspreise werden nicht bewertet.':'In «Alle Artikel» findest du auch ausverkaufte Artikel und Artikel im Handel. «Auch ältere Sets» blendet Sets vor der Mega-Entwicklung ein.';
+ if(S.tab==='wl'){var gone=Object.keys(WL).filter(function(u){return !items.some(function(i){return i.u===u;});});
+  if(gone.length)box.insertAdjacentHTML('beforeend','<div class="grp">Nicht mehr gelistet</div>'+gone.map(function(u){var w=WL[u]||{};return '<div class="gone">'+wlButton(u,true)+'<div><b>'+esc(w.t||u)+'</b><small>'+esc(w.s||'')+' · aktuell in keinem überwachten Shop gelistet</small></div></div>';}).join(''));}
+ $('hint').textContent=S.tab==='wl'?'Deine Merkliste wird nur in diesem Browser auf diesem Gerät gespeichert. Preise und Verfügbarkeit sind immer der aktuelle Stand.':S.tab==='pre'?'Bewertung: Shop-Preis im Vergleich zum Richtpreis. ✅ bis +'+Math.round((D.meta.th.fair-1)*100)+' %, ⚠️ bis +'+Math.round((D.meta.th.teuer-1)*100)+' %, 🚫 darüber. Auslandspreise werden nicht bewertet.':'In «Alle Artikel» findest du auch ausverkaufte Artikel und Artikel im Handel. «Auch ältere Sets» blendet Sets vor der Mega-Entwicklung ein.';
  var ac=activeCount();$('fn').textContent=ac?' ('+ac+' aktiv)':'';
  saveState();
 }
@@ -308,12 +332,20 @@ langBox.addEventListener('click',function(e){var b=e.target.closest('.chip');if(
  var cur=S.lang?S.lang.split(','):[],i=cur.indexOf(b.dataset.l);if(i>=0)cur.splice(i,1);else cur.push(b.dataset.l);
  S.lang=cur.join(',');b.classList.toggle('on');shown=100;render();});
 $('reset').addEventListener('click',function(){var t=S.tab;S=Object.assign({},DEF);S.tab=t;upd();});
+document.addEventListener('click',function(e){var b=e.target.closest&&e.target.closest('.wl');if(!b)return;
+ var u=b.dataset.u,on=!!WL[u];
+ if(on){delete WL[u];}else{var it=items.filter(function(i){return i.u===u;})[0]||{};WL[u]={t:it.t||u,s:it.s||''};}
+ saveWL();$('n-wl').textContent=wlCount()||'';
+ if(S.tab==='wl'){render();return;}
+ var nowOn=!on;b.classList.toggle('on',nowOn);b.setAttribute('aria-pressed',nowOn?'true':'false');
+ b.title=nowOn?'Aus Merkliste entfernen':'Auf die Merkliste';b.setAttribute('aria-label',nowOn?'Aus Merkliste entfernen':'Auf die Merkliste setzen');
+ b.innerHTML=nowOn?BALL_CLOSED:BALL_OPEN;});
 $('more').addEventListener('click',function(){shown+=100;render();});
 $('tabs').addEventListener('click',function(e){var b=e.target.closest('button');if(!b)return;S.tab=b.dataset.tab;S.sort='';showTab();});
 function showTab(){
- var t=S.tab;$('view-items').classList.toggle('hide',!(t==='pre'||t==='all'));
+ var t=S.tab;$('view-items').classList.toggle('hide',!(t==='pre'||t==='all'||t==='wl'));
  $('view-news').classList.toggle('hide',t!=='news');$('view-shops').classList.toggle('hide',t!=='shops');
- shown=100;syncUI();if(t==='pre'||t==='all')render();else saveState();
+ shown=100;syncUI();if(t==='pre'||t==='all'||t==='wl')render();else saveState();
 }
 // ---- Kalender
 (function(){
@@ -331,7 +363,7 @@ function showTab(){
 })();
 // ---- Kopfzeile
 var nPre=items.filter(function(i){return i.isPre;}).length;
-$('n-pre').textContent=nPre;$('n-all').textContent=items.length;$('n-news').textContent=D.news.length;
+$('n-pre').textContent=nPre;$('n-wl').textContent=wlCount()||'';$('n-all').textContent=items.length;$('n-news').textContent=D.news.length;
 $('p-data').innerHTML='🗂 Daten vom <b>'+esc(D.meta.generated.slice(8,10)+'.'+D.meta.generated.slice(5,7)+'. '+D.meta.generated.slice(11,16))+'</b>';
 $('p-count').innerHTML='<b>'+nPre+'</b> Vorbestellungen · <b>'+items.length+'</b> Artikel · '+shops.length+' Shops';
 $('f-gen').textContent='Umrechnung: 1 € = '+D.meta.eur_chf.toFixed(3)+' CHF';
@@ -344,7 +376,7 @@ if(D.meta.repo&&window.fetch){
  }).catch(function(){});
 }
 loadState();
-if(['pre','all','news','shops'].indexOf(S.tab)<0)S.tab='pre';
+if(['pre','all','wl','news','shops'].indexOf(S.tab)<0)S.tab='pre';
 showTab();
 })();
 </script>

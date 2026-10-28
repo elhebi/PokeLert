@@ -334,6 +334,10 @@ def parse_shop_html(text, src, page_url):
     must_not = [m.lower() for m in src.get("link_must_not_contain", ["add-to-cart", "javascript:"])]
     # Unsichtbares entfernen, damit nur sichtbarer Text und Preise übrig bleiben
     text = re.sub(r"<(script|style|noscript|svg)\b.*?</\1>|<!--.*?-->", " ", text, flags=re.I | re.S)
+    # Durchgestrichene und "alte" Preise ignorieren (zählen nicht als Verkaufspreis)
+    text = re.sub(r"<(s|del|strike)\b[^>]*>.*?</\1>", " ", text, flags=re.I | re.S)
+    text = re.sub(r'<(span|div|p|bdi|ins)\b[^>]*class=["\'][^"\']*(?:list-price|old-price|price-old|was-price|regular-price|strike|line-through)[^"\']*["\'][^>]*>.*?</\1>',
+                  " ", text, flags=re.I | re.S)
     foot = re.search(r"<footer\b", text, re.I)
     if foot:
         text = text[:foot.start()]
@@ -368,11 +372,17 @@ def parse_shop_html(text, src, page_url):
         if not labels:
             continue
         title = max(labels, key=len)[:200]
-        nums = re.findall(r"(?:CHF|Fr\.)\s*([0-9][0-9'’.,]*)", wtext, re.I) or \
-            re.findall(r"([0-9][0-9'’.,]*)\s*(?:CHF|Fr\.)", wtext, re.I)
-        prices = [x for x in (parse_num(n) for n in nums) if x]
+        price = None
+        for w in wins:  # erster Betrag nach dem Link dieses Produkts (nicht der kleinste im Bereich)
+            wt = clean(w)
+            nums = re.findall(r"(?:CHF|Fr\.)\s*([0-9][0-9'’.,]*)", wt, re.I) or \
+                re.findall(r"([0-9][0-9'’.,]*)\s*(?:CHF|Fr\.)", wt, re.I)
+            vals = [x for x in (parse_num(n) for n in nums) if x]
+            if vals:
+                price = vals[0]
+                break
         items.append(shop_item(
-            src, title, full, min(prices) if prices else None, "CHF",
+            src, title, full, price, "CHF",
             not SOLD_RE.search(wtext),
             src.get("preorder_page") or bool(PREORDER_RE.search(title + " " + wtext)),
             iso_date(wtext)))
@@ -409,6 +419,32 @@ def rate(it, cfg, uvp, cur=False):
         return  # Ausland: Preis nur anzeigen (Zoll/MwSt/Versand nicht vergleichbar), keine Bewertung
     th = uvp["thresholds"]
     it["rating"] = "fair" if ratio <= th["fair"] else "teuer" if ratio <= th["teuer"] else "reseller"
+
+
+def sanity_check_prices(items, cfg, factor=0.3, min_refs=3):
+    """Offensichtlich falsche Preise (z. B. 29.90 für ein Display) entfernen.
+    Vergleich mit dem Median gleicher Produktart im gleichen Set bei den anderen Shops."""
+    groups = {}
+    for it in items:
+        if it.get("kind") != "shop" or not it.get("price") or it.get("currency", "CHF") != "CHF":
+            continue
+        ty = detect_type(it["title"])
+        if ty != "display" or re.search(r"\b(case|karton)\b", norm(it["title"])):
+            continue
+        sid = detect_set(it["title"], cfg.get("sets", []))
+        if not sid:
+            continue
+        groups.setdefault((sid, ty), []).append(it)
+    for (sid, ty), grp in groups.items():
+        prices = [(o.get("source"), o["price"]) for o in grp]
+        for it in grp:
+            others = sorted(pr for src, pr in prices if src != it.get("source"))
+            if len(others) < min_refs:
+                continue
+            med = others[len(others) // 2]
+            if it["price"] < factor * med:
+                log(f"  Preis unplausibel, wird ignoriert: {it['title'][:60]} ({it['source']}) CHF {it['price']} (Median {med})")
+                it["price"] = None
 
 
 def shop_relevant(it, cfg):
@@ -578,6 +614,7 @@ def run(cfg, dry=False, alert_initial=False, show=False):
     state["sources"] = status
     ok_ratings = set(cfg.get("alert_ratings", ["fair", "teuer", ""]))
 
+    sanity_check_prices(collected, cfg)
     for it in collected:
         if not it.get("url") or not it.get("title"):
             continue
